@@ -33,3 +33,21 @@ corpus = [dictionary.doc2bow(doc) for doc in processed_docs]
 lda = LdaModel(corpus, num_topics=6, id2word=dictionary, passes=15)
 topics = lda.print_topics(num_words=3)
 print(topics)
+from collections import Counter
+
+topic_counts = Counter()
+
+for doc_bow in corpus:
+    topic_distribution = lda.get_document_topics(doc_bow)
+    # Find the topic with the highest probability in the doc
+    dominant_topic = max(topic_distribution, key=lambda x: x[1])[0]
+    topic_counts[dominant_topic] += 1
+total_docs = len(corpus)
+
+# Get topic keywords for reference
+topic_keywords = lda.print_topics(num_words=3)
+
+# Print sorted topic frequencies
+for topic_num, count in topic_counts.most_common():
+    percentage = (count / total_docs) * 100
+    print(f"Topic {topic_num} ({percentage:.2f}% of docs): {topic_keywords[topic_num][1]}")
