@@ -35,7 +35,7 @@ plt.bar(years, adjacent_pct, bottom=bottoms, color='gray', label='Adjacent')
 
 plt.ylabel('Percentage')
 plt.xlabel('Year')
-plt.title('Mobile Data Type Distribution (2007–2016)')
+plt.title('Mobile Data Access Vector (2007–2016)')
 plt.xticks(years)
 plt.yticks(range(0, 110, 10))
 plt.legend()

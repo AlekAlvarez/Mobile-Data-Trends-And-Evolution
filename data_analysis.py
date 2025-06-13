@@ -32,12 +32,29 @@ for i in range(14,25):
         cpe23URI=''
         containsRange=False
         publishedDate=i["publishedDate"]
+        found_bool=False
         for stuff in nodes:
             if "cpe_match" in stuff.keys():
                 cpe_match=stuff['cpe_match']
                 for more_stuff in cpe_match:
                     if "cpe23Uri" in more_stuff.keys():
                         cpe23URI=more_stuff["cpe23Uri"]
+                    if "versionStartIncluding" in more_stuff.keys():
+                        if more_stuff["versionStartIncluding"][:1]=="1" or more_stuff["versionStartIncluding"][:1]=="0":
+                            found_bool=True
+                    if "versionStartExcluding" in more_stuff.keys():
+                        if more_stuff["versionStartExcluding"][:1]=="1" or more_stuff["versionStartExcluding"][:1]=="0":
+                            found_bool=True
+                    if "versionEndIncluding" in more_stuff.keys():
+                        if more_stuff["versionEndIncluding"][:1]=="1" or more_stuff["versionEndIncluding"][:1]=="0":
+                            found_bool=True
+                        if not "versionStartIncluding" in more_stuff.keys() and not "versionStartExcluding" in more_stuff.keys():
+                            found_bool=True
+                    if "versionEndExcluding" in more_stuff.keys():
+                        if more_stuff["versionEndExcluding"][:1]=="1" or more_stuff["versionEndExcluding"][:1]=="0":
+                            found_bool=True
+                        if not "versionStartIncluding" in more_stuff.keys() and not "versionStartExcluding" in more_stuff.keys():
+                            found_bool=True
         accessVector=''
         severity=''
         complexity=''
@@ -67,7 +84,7 @@ for i in range(14,25):
             contains_cwe_id=True
         summary=i['cve']['description']['description_data'][0]['value']
         arr=cpe23URI.split(":")
-        if "version 1.0" in summary.lower() or "all versions" in summary or len(arr)>5 and "1.0" == arr[5]:
+        if "version 1." in summary.lower() or "all version" in summary.lower() or "foundational" in summary.lower() or (len(arr)>5 and "1." == arr[5][:2] ) or (len(arr)>5 and "1." == arr[5][:2] )or found_bool:
             foundational=True
         #re.search("\sios\s",description)  or
         b=False

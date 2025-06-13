@@ -19,7 +19,7 @@ for i in years:
     import nltk
     from nltk.corpus import stopwords
     from nltk.tokenize import word_tokenize
-    Not_Topics=["mobile","earlier","vulnerability","allows","via","attacker"]
+    Not_Topics=["mobile","earlier","vulnerability","allows","via","attacker","severity",'cpe','uri',"complexity"]
     nltk.download('punkt')
     nltk.download('stopwords')
     def preprocess_text(text):
@@ -32,8 +32,8 @@ for i in years:
     corpus = [dictionary.doc2bow(doc) for doc in processed_docs]
     #number of topics is adjustable
     #adjust it until topics gained make sense
-    lda = LdaModel(corpus, num_topics=8, id2word=dictionary, passes=15)
-    topics = lda.print_topics(num_words=3)
+    lda = LdaModel(corpus, num_topics=20, id2word=dictionary, passes=15)
+    topics = lda.print_topics(num_words=5)
     from collections import Counter
 
     topic_counts = Counter()

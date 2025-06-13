@@ -16,6 +16,9 @@ for i in range(1,len(lines)):
     non_mobiles.append(non_mobile)
 plt.plot(years,mobiles,color='black',linestyle='-',label="Mobile")
 plt.plot(years,non_mobiles,color='grey',linestyle='--',label="Non-Mobile")
+for i in range(len(years)):
+    plt.text(years[i], mobiles[i], str(mobiles[i]), ha='center', va='bottom')
+    plt.text(years[i], non_mobiles[i], str(non_mobiles[i]), ha='center', va='bottom')
 plt.xticks(years,["2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"])
 plt.legend()
 plt.show()
