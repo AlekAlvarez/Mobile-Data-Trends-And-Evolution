@@ -1,0 +1,500 @@
+CVE-2011-0428
+Cross Site Scripting (XSS) in ikiwiki before 3.20110122 could allow remote attackers to insert arbitrary JavaScript due to insufficient checking in comments.
+CWE-79
+
+
+CVE-2011-0467
+A vulnerability in the listing of available software of SUSE Studio Onsite, SUSE Studio Onsite 1.1 Appliance allows authenticated users to execute arbitrary SQL statements via SQL injection. Affected releases are SUSE Studio Onsite: versions prior to 1.0.3-0.18.1, SUSE Studio Onsite 1.1 Appliance: versions prior to 1.1.2-0.25.1.
+CWE-89
+
+
+CVE-2011-0544
+phpbb 3.0.x-3.0.6 has an XSS vulnerability via the [flash] BB tag.
+CWE-79
+
+
+CVE-2011-1009
+Vanilla Forums 2.0.17.1 through 2.0.17.5 has XSS in /vanilla/index.php via the p parameter.
+CWE-79
+
+
+CVE-2011-1069
+PHPShop through 0.8.1 has XSS.
+CWE-79
+
+
+CVE-2011-1084
+A cross-site scripting (XSS) vulnerability in Smoothwall Express 3.
+CWE-79
+
+
+CVE-2011-1086
+Cross-site scripting (XSS) vulnerability in admin/system.html in Openfiler 2.3 allows remote attackers to inject arbitrary web script or HTML via the device parameter.
+CWE-79
+
+
+CVE-2011-1133
+Cross-Site Scripting (XSS) in Xinha, as included in the Serendipity package before 1.5.5, allows remote attackers to execute arbitrary code via plugins/ExtendedFileManager/backend.php.
+CWE-79
+
+
+CVE-2011-1134
+Cross-Site Scripting (XSS) in Xinha, as included in the Serendipity package before 1.5.5, allows remote attackers to execute arbitrary code in the image manager.
+CWE-434
+
+
+CVE-2011-1135
+Cross-Site Scripting (XSS) in Xinha, as included in the Serendipity package before 1.5.5, allows remote attackers to execute arbitrary code in plugins/ExtendedFileManager/manager.php and plugins/ImageManager/manager.php.
+CWE-79
+
+
+CVE-2011-1136
+In tesseract 2.03 and 2.04, an attacker can rewrite an arbitrary user file by guessing the PID and creating a link to the user's file.
+CWE-59
+
+
+CVE-2011-1145
+The SQLDriverConnect() function in unixODBC before 2.2.14p2 have a possible buffer overflow condition when specifying a large value for SAVEFILE parameter in the connection string.
+CWE-120
+
+
+CVE-2011-1150
+bbPress through 1.0.2 has XSS in /bb-login.php url via the re parameter.
+CWE-79
+
+
+CVE-2011-1151
+Joomla! 1.6.0 is vulnerable to SQL Injection via the filter_order and filer_order_Dir parameters.
+CWE-89
+
+
+CVE-2011-1298
+An Integer Overflow exists in WebKit in Google Chrome before Blink M11 in the macOS WebCore::GraphicsContext::fillRect function.
+CWE-190
+
+
+CVE-2011-1408
+ikiwiki before 3.20110608 allows remote attackers to hijack root's tty and run symlink attacks.
+CWE-59
+
+
+CVE-2011-1488
+A memory leak in rsyslog before 5.7.6 was found in the way deamon processed log messages are logged when $RepeatedMsgReduction was enabled. A local attacker could use this flaw to cause a denial of the rsyslogd daemon service by crashing the service via a sequence of repeated log messages sent within short periods of time.
+CWE-772
+
+
+CVE-2011-1489
+A memory leak in rsyslog before 5.7.6 was found in the way deamon processed log messages were logged when multiple rulesets were used and some output batches contained messages belonging to more than one ruleset. A local attacker could cause denial of the rsyslogd daemon service via a log message belonging to more than one ruleset.
+CWE-772
+
+
+CVE-2011-1490
+A memory leak in rsyslog before 5.7.6 was found in the way deamon processed log messages are logged when multiple rulesets were used and some output batches contained messages belonging to more than one ruleset. A local attacker could cause denial of the rsyslogd daemon service via a log message belonging to more than one ruleset
+CWE-772
+
+
+CVE-2011-1588
+Thunar before 1.3.1 could crash when copy and pasting a file name with % format characters due to a format string error.
+CWE-134
+
+
+CVE-2011-1597
+OpenVAS Manager v2.0.3 allows plugin remote code execution.
+CWE-434
+
+
+CVE-2011-1762
+A flaw exists in Wordpress related to the 'wp-admin/press-this.php 'script improperly checking user permissions when publishing posts. This may allow a user with 'Contributor-level' privileges to post as if they had 'publish_posts' permission.
+CWE-276
+
+
+CVE-2011-1802
+WebKit in Google Chrome before Blink M11 and M12 does not properly handle counter nodes, which allows remote attackers to cause a denial of service (memory corruption).
+CWE-476
+
+
+CVE-2011-1830
+Ekiga versions before 3.3.0 attempted to load a module from /tmp/ekiga_test.so.
+CWE-94
+
+
+CVE-2011-1933
+SQL injection vulnerability in Jifty::DBI before 0.68.
+CWE-89
+
+
+CVE-2011-1939
+SQL injection vulnerability in Zend Framework 1.10.x before 1.10.9 and 1.11.x before 1.11.6 when using non-ASCII-compatible encodings in conjunction PDO_MySql in PHP before 5.3.6.
+CWE-89
+
+
+CVE-2011-2187
+xscreensaver before 5.14 crashes during activation and leaves the screen unlocked when in Blank Only Mode and when DPMS is disabled, which allows local attackers to access resources without authentication.
+CWE-306
+
+
+CVE-2011-2195
+A flaw was found in WebSVN 2.3.2. Without prior authentication, if the 'allowDownload' option is enabled in config.php, an attacker can invoke the dl.php script and pass a well formed 'path' argument to execute arbitrary commands against the underlying operating system.
+CWE-78
+
+
+CVE-2011-2207
+dirmngr before 2.1.0 improperly handles certain system calls, which allows remote attackers to cause a denial of service (DOS) via a specially-crafted certificate.
+CWE-295
+
+
+CVE-2011-2498
+The Linux kernel from v2.3.36 before v2.6.39 allows local unprivileged users to cause a denial of service (memory consumption) by triggering creation of PTE pages.
+CWE-772
+
+
+CVE-2011-2499
+Mambo CMS through 4.6.5 has multiple XSS.
+CWE-79
+
+
+CVE-2011-2523
+vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
+CWE-78
+
+
+CVE-2011-2669
+Mozilla Firefox prior to 3.6 has a DoS vulnerability due to an issue in the validation of certificates.
+CWE-295
+
+
+CVE-2011-2670
+Mozilla Firefox before 3.6 is vulnerable to XSS via the rendering of Cascading Style Sheets
+CWE-79
+
+
+CVE-2011-2706
+A Cross-Site Scripting (XSS) vulnerability exists in the reorder administrator functions in sNews 1.71.
+CWE-79
+
+
+CVE-2011-2714
+A Cross-Site Scripting vulnerability exists in Drupal 6.20 with Data 6.x-1.0-alpha14 due to insufficient sanitization of table descriptions, field names, or labels before display.
+CWE-79
+
+
+CVE-2011-2715
+An SQL Injection vulnerability exists in Drupal 6.20 with Data 6.x-1.0-alpha14 due to insufficient sanitization of table names or column names.
+CWE-89
+
+
+CVE-2011-2765
+pyro before 3.15 unsafely handles pid files in temporary directory locations and opening the pid file as root. An attacker can use this flaw to overwrite arbitrary files via symlinks.
+CWE-59
+
+
+CVE-2011-2767
+mod_perl 2.0 through 2.0.10 allows attackers to execute arbitrary Perl code by placing it in a user-owned .htaccess file, because (contrary to the documentation) there is no configuration option that permits Perl code for the administrator's control of HTTP request processing without also permitting unprivileged users to run Perl code in the context of the user account that runs Apache HTTP Server processes.
+CWE-94
+
+
+CVE-2011-2916
+qtnx 0.9 stores non-custom SSH keys in a world-readable configuration file. If a user has a world-readable or world-executable home directory, another local system user could obtain the private key used to connect to remote NX sessions.
+CWE-312
+
+
+CVE-2011-2921
+ktsuss versions 1.4 and prior has the uid set to root and does not drop privileges prior to executing user specified commands, which can result in command execution with root privileges.
+CWE-273
+
+
+CVE-2011-2923
+foomatic-rip filter, all versions, used insecurely creates temporary files for storage of PostScript data by rendering the data when the debug mode was enabled. This flaw may be exploited by a local attacker to conduct symlink attacks by overwriting arbitrary files accessible with the privileges of the user running the foomatic-rip universal print filter.
+CWE-59
+
+
+CVE-2011-2924
+foomatic-rip filter v4.0.12 and prior used insecurely creates temporary files for storage of PostScript data by rendering the data when the debug mode was enabled. This flaw may be exploited by a local attacker to conduct symlink attacks by overwriting arbitrary files accessible with the privileges of the user running the foomatic-rip universal print filter.
+CWE-59
+
+
+CVE-2011-2933
+An Arbitrary File Upload vulnerability exists in admin/media/upload.php in WebsiteBaker 2.8.1 and earlier due to a failure to restrict uploaded files with .htaccess, .php4, .php5, and .phtl extensions.
+CWE-434
+
+
+CVE-2011-2935
+Elgg through 1.7.10 has XSS
+CWE-79
+
+
+CVE-2011-2936
+Elgg through 1.7.10 has a SQL injection vulnerability
+CWE-89
+
+
+CVE-2011-3178
+In the web ui of the openbuildservice before 2.3.0 a code injection of the project rebuildtimes statistics could be used by authorized attackers to execute shellcode.
+CWE-94
+
+
+CVE-2011-3183
+A Cross-Site Scripting (XSS) vulnerability exists in the rcID parameter in Concrete CMS 5.4.1.1 and earlier.
+CWE-79
+
+
+CVE-2011-3202
+A Cross-Site Scripting (XSS) vulnerability exists in the g parameter to index.php in Jcow CMS 4.2 and earlier.
+CWE-79
+
+
+CVE-2011-3350
+masqmail 0.2.21 through 0.2.30 improperly calls seteuid() in src/log.c and src/masqmail.c that results in improper privilege dropping.
+CWE-273
+
+
+CVE-2011-3351
+openvas-scanner before 2011-09-11 creates a temporary file insecurely when generating OVAL system characteristics document with the ovaldi integrated tool enabled. A local attacker could use this flaw to conduct symlink attacks to overwrite arbitrary files on the system.
+CWE-59
+
+
+CVE-2011-3352
+Zikula 1.3.0 build #3168 and probably prior has XSS flaw due to improper sanitization of the 'themename' parameter by setting default, modifying and deleting themes. A remote attacker with Zikula administrator privilege could use this flaw to execute arbitrary HTML or web script code in the context of the affected website.
+CWE-79
+
+
+CVE-2011-3370
+statusnet before 0.9.9 has XSS
+CWE-79
+
+
+CVE-2011-3373
+Drupal Views Builk Operations (VBO) module 6.x-1.0 through 6.x-1.10 does not properly escape the vocabulary help when the vocabulary has had user tagging enabled and the "Modify node taxonomy terms" action is used. A remote attacker could provide a specially-crafted URL that could lead to cross-site scripting (XSS) attack.
+CWE-79
+
+
+CVE-2011-3374
+It was found that apt-key in apt, all versions, do not correctly validate gpg keys with the master keyring, leading to a potential man-in-the-middle attack.
+CWE-347
+
+
+CVE-2011-3583
+It was found that Typo3 Core versions 4.5.0 - 4.5.5 uses prepared statements that, if the parameter values are not properly replaced, could lead to a SQL Injection vulnerability. This issue can only be exploited if two or more parameters are bound to the query and at least two come from user input.
+CWE-89
+
+
+CVE-2011-3584
+The TYPO3 Core wec_discussion extension before 2.1.1 is vulnerable to SQL Injection due to improper sanitation of user-supplied input.
+CWE-89
+
+
+CVE-2011-3595
+Multiple Cross-site Scripting (XSS) vulnerabilities exist in Joomla! through 1.7.0 in index.php in the search word, extension, asset, and author parameters.
+CWE-79
+
+
+CVE-2011-3596
+Polipo before 1.0.4.1 suffers from a DoD vulnerability via specially-crafted HTTP POST / PUT request.
+CWE-617
+
+
+CVE-2011-3600
+The /webtools/control/xmlrpc endpoint in OFBiz XML-RPC event handler is exposed to External Entity Injection by passing DOCTYPE declarations with executable payloads that discloses the contents of files in the filesystem. In addition, it can also be used to probe for open network ports, and figure out from returned error messages whether a file exists or not. This affects OFBiz 16.11.01 to 16.11.04.
+CWE-611
+
+
+CVE-2011-3606
+A DOM based cross-site scripting flaw was found in the JBoss Application Server 7 before 7.1.0 Beta 1 administration console. A remote attacker could provide a specially-crafted web page and trick the valid JBoss AS user, with the administrator privilege, to visit it, which would lead into the DOM environment modification and arbitrary HTML or web script execution.
+CWE-79
+
+
+CVE-2011-3610
+A Cross-site Scripting (XSS) vulnerability exists in the Serendipity freetag plugin before 3.30 in the tagcloud parameter to plugins/serendipity_event_freetag/tagcloud.swf.
+CWE-79
+
+
+CVE-2011-3618
+atop: symlink attack possible due to insecure tempfile handling
+CWE-59
+
+
+CVE-2011-3622
+A Cross-Site Scripting (XSS) vulnerability exists in the admin login screen in Phorum before 5.2.18.
+CWE-79
+
+
+CVE-2011-3630
+Hardlink before 0.1.2 suffer from multiple stack-based buffer overflow flaws because of the way directory trees with deeply nested directories are processed. A remote attacker could provide a specially-crafted directory tree, and trick the local user into consolidating it, leading to hardlink executable crash, or, potentially arbitrary code execution with the privileges of the user running the hardlink executable.
+CWE-787
+
+
+CVE-2011-3631
+Hardlink before 0.1.2 has multiple integer overflows leading to heap-based buffer overflows because of the way string lengths concatenation is done in the calculation of the required memory space to be used. A remote attacker could provide a specially-crafted directory tree and trick the local user into consolidating it, leading to hardlink executable crash or potentially arbitrary code execution with user privileges.
+CWE-190
+
+
+CVE-2011-3632
+Hardlink before 0.1.2 operates on full file system objects path names which can allow a local attacker to use this flaw to conduct symlink attacks.
+CWE-59
+
+
+CVE-2011-3642
+Cross-site scripting (XSS) vulnerability in Flowplayer Flash 3.2.7 through 3.2.16, as used in the News system (news) extension for TYPO3 and Mahara, allows remote attackers to inject arbitrary web script or HTML via the plugin configuration directive in a reference to an external domain plugin.
+CWE-79
+
+
+CVE-2011-3656
+Cross-site scripting (XSS) vulnerability in Mozilla Firefox before 3.6.24 and 4.x through 7 allows remote attackers to inject arbitrary web script or HTML via vectors involving HTTP 0.9 errors, non-default ports, and content-sniffing.
+CWE-79
+
+
+CVE-2011-4069
+html/admin/login.php in PacketFence before 3.0.2 allows remote attackers to conduct LDAP injection attacks and consequently bypass authentication via a crafted username.
+CWE-90
+
+
+CVE-2011-4090
+Serendipity before 1.6 has an XSS issue in the karma plugin which may allow privilege escalation.
+CWE-79
+
+
+CVE-2011-4094
+Jara 1.6 has a SQL injection vulnerability.
+CWE-89
+
+
+CVE-2011-4095
+Jara 1.6 has an XSS vulnerability
+CWE-79
+
+
+CVE-2011-4116
+_is_safe in the File::Temp module for Perl does not properly handle symlinks.
+CWE-59
+
+
+CVE-2011-4183
+A vulnerability in open build service allows remote attackers to upload arbitrary RPM files. Affected releases are SUSE open build service prior to 2.1.16.
+CWE-434
+
+
+CVE-2011-4322
+websitebaker prior to and including 2.8.1 has an authentication error in backup module.
+CWE-306
+
+
+CVE-2011-4336
+Tiki Wiki CMS Groupware 7.0 has XSS via the GET "ajax" parameter to snarf_ajax.php.
+CWE-79
+
+
+CVE-2011-4350
+Yaws 1.91 has a directory traversal vulnerability in the way certain URLs are processed. A remote authenticated user could use this flaw to obtain content of arbitrary local files via specially-crafted URL request.
+CWE-22
+
+
+CVE-2011-4454
+Multiple cross-site scripting vulnerabilities in Tiki 8.0 RC1 and earlier allow remote attackers to inject arbitrary web script or HTML via the path info to (1) tiki-remind_password.php, (2) tiki-index.php, (3) tiki-login_scr.php, or (4) tiki-index.
+CWE-79
+
+
+CVE-2011-4455
+Multiple cross-site scripting vulnerabilities in Tiki 7.2 and earlier allow remote attackers to inject arbitrary web script or HTML via the path info to (1) tiki-admin_system.php, (2) tiki-pagehistory.php, (3) tiki-removepage.php, or (4) tiki-rename_page.php.
+CWE-79
+
+
+CVE-2011-4595
+Pretty-Link WordPress plugin 1.5.2 has XSS
+CWE-79
+
+
+CVE-2011-4626
+Cross-site Scripting (XSS) in TYPO3 before 4.3.12, 4.4.x before 4.4.9, and 4.5.x before 4.5.4 allows remote attackers to inject arbitrary web script or HTML via the "JSwindow" property of the typolink function.
+CWE-79
+
+
+CVE-2011-4629
+Cross-site Scripting (XSS) in TYPO3 before 4.3.12, 4.4.x before 4.4.9, and 4.5.x before 4.5.4 allows remote attackers to inject arbitrary web script or HTML via the admin panel.
+CWE-79
+
+
+CVE-2011-4630
+Cross-site Scripting (XSS) in TYPO3 before 4.3.12, 4.4.x before 4.4.9, and 4.5.x before 4.5.4 allows remote attackers to inject arbitrary web script or HTML via the browse_links wizard.
+CWE-79
+
+
+CVE-2011-4631
+Cross-site Scripting (XSS) in TYPO3 before 4.3.12, 4.4.x before 4.4.9, and 4.5.x before 4.5.4 allows remote attackers to inject arbitrary web script or HTML via the system extension recycler.
+CWE-79
+
+
+CVE-2011-4632
+Cross-site Scripting (XSS) in TYPO3 before 4.3.12, 4.4.x before 4.4.9, and 4.5.x before 4.5.4 allows remote attackers to inject arbitrary web script or HTML via the tcemain flash message.
+CWE-79
+
+
+CVE-2011-4661
+A memory leak vulnerability exists in Cisco IOS before 15.2(1)T due to a memory leak in the HTTP PROXY Server process (aka CSCtu52820), when configured with Cisco ISR Web Security with Cisco ScanSafe and User Authenticaiton NTLM configured.
+CWE-772
+
+
+CVE-2011-4903
+Cross-site Scripting (XSS) in TYPO3 before 4.3.12, 4.4.x before 4.4.9, and 4.5.x before 4.5.4 allows remote attackers to inject arbitrary web script or HTML via the RemoveXSS function.
+CWE-79
+
+
+CVE-2011-4906
+Tiny browser in TinyMCE 3.0 editor in Joomla! before 1.5.13 allows file upload and arbitrary PHP code execution.
+CWE-434
+
+
+CVE-2011-4907
+Joomla! 1.5x through 1.5.12: Missing JEXEC Check
+CWE-434
+
+
+CVE-2011-4908
+TinyBrowser plugin for Joomla! before 1.5.13 allows arbitrary file upload via upload.php.
+CWE-434
+
+
+CVE-2011-4924
+Cross-site scripting (XSS) vulnerability in Zope 2.8.x before 2.8.12, 2.9.x before 2.9.12, 2.10.x before 2.10.11, 2.11.x before 2.11.6, and 2.12.x before 2.12.3, 3.1.1 through 3.4.1. allows remote attackers to inject arbitrary web script or HTML via vectors related to the way error messages perform sanitization. NOTE: this issue exists because of an incomplete fix for CVE-2010-1104
+CWE-79
+
+
+CVE-2011-4931
+gpw generates shorter passwords than required
+CWE-521
+
+
+CVE-2011-4938
+Multiple cross-site scripting (XSS) vulnerabilities in Ariadne 2.7.6 allow remote attackers to inject arbitrary web script or HTML via the PATH_INFO parameter to (1) index.php and (2) loader.php.
+CWE-79
+
+
+CVE-2011-5018
+Koala Framework before 2011-11-21 has XSS via the request_uri parameter.
+CWE-79
+
+
+CVE-2011-5020
+An SQL Injection vulnerability exists in the ID parameter in Online TV Database 2011.
+CWE-89
+
+
+CVE-2011-5247
+Snare for Linux before 1.7.0 has password disclosure because the rendered page contains the field RemotePassword.
+CWE-312
+
+
+CVE-2011-5266
+Imperva SecureSphere Web Application Firewall (WAF) before 12-august-2010 allows SQL injection filter bypass.
+CWE-89
+
+
+CVE-2011-5271
+Pacemaker before 1.1.6 configure script creates temporary files insecurely
+CWE-59
+
+
+CVE-2011-5329
+The redirection plugin before 2.2.9 for WordPress has XSS in the admin menu, a different issue than CVE-2011-4562.
+CWE-79
+
+

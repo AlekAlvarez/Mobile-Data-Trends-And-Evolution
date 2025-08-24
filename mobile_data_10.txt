@@ -1,0 +1,250 @@
+CVE-2010-0206
+xpdf allows remote attackers to cause a denial of service (NULL pointer dereference and crash) in the way it processes JBIG2 PDF stream objects.
+CWE-476
+
+
+CVE-2010-0207
+In xpdf, the xref table contains an infinite loop which allows remote attackers to cause a denial of service (application crash) in xpdf-based PDF viewers.
+CWE-835
+
+
+CVE-2010-0398
+The init script in autokey before 0.61.3-2 allows local attackers to write to arbitrary files via a symlink attack.
+CWE-59
+
+
+CVE-2010-10006
+A vulnerability, which was classified as problematic, was found in michaelliao jopenid. Affected is the function getAuthentication of the file JOpenId/src/org/expressme/openid/OpenIdManager.java. The manipulation leads to observable timing discrepancy. The complexity of an attack is rather high. The exploitability is told to be difficult. Upgrading to version 1.08 is able to address this issue. The name of the patch is c9baaa976b684637f0d5a50268e91846a7a719ab. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218460.
+CWE-208
+
+
+CVE-2010-1673
+A cross-site scripting (XSS) vulnerability in ikiwiki before 3.20101112 allows remote attackers to inject arbitrary web script or HTML via a comment.
+CWE-79
+
+
+CVE-2010-2064
+rpcbind 0.2.0 allows local users to write to arbitrary files or gain privileges via a symlink attack on (1) /tmp/portmap.xdr and (2) /tmp/rpcbind.xdr.
+CWE-59
+
+
+CVE-2010-2222
+The _ger_parse_control function in Red Hat Directory Server 8 and the 389 Directory Server allows attackers to cause a denial of service (NULL pointer dereference) via a crafted search query.
+CWE-476
+
+
+CVE-2010-2247
+makepasswd 1.10 default settings generate insecure passwords
+CWE-1188
+
+
+CVE-2010-2250
+Drupal 5.x and 6.x before 6.16 uses a user-supplied value in output during site installation which could allow an attacker to craft a URL and perform a cross-site scripting attack.
+CWE-79
+
+
+CVE-2010-2471
+Drupal versions 5.x and 6.x has open redirection
+CWE-601
+
+
+CVE-2010-2472
+Locale module and dependent contributed modules in Drupal 6.x before 6.16 and 5.x before version 5.22 do not sanitize the display of language codes, native and English language names properly which could allow an attacker to perform a cross-site scripting (XSS) attack. This vulnerability is mitigated by the fact that an attacker must have a role with the 'administer languages' permission.
+CWE-79
+
+
+CVE-2010-2488
+NULL pointer dereference vulnerability in ZNC before 0.092 caused by traffic stats when there are unauthenticated connections.
+CWE-476
+
+
+CVE-2010-3048
+Cisco Unified Personal Communicator 7.0 (1.13056) does not free allocated memory for received data and does not perform validation if memory allocation is successful, causing a remote denial of service condition.
+CWE-476
+
+
+CVE-2010-3095
+mailscanner before 4.79.11-2.1 might allow local users to overwrite arbitrary files via a symlink attack on certain temporary files. NOTE: this issue exists because of an incomplete fix for CVE-2008-5313.
+CWE-59
+
+
+CVE-2010-3282
+389 Directory Server before 1.2.7.1 (aka Red Hat Directory Server 8.2) and HP-UX Directory Server before B.08.10.03, when audit logging is enabled, logs the Directory Manager password (nsslapd-rootpw) in cleartext when changing cn=config:nsslapd-rootpw, which might allow local users to obtain sensitive information by reading the log.
+CWE-312
+
+
+CVE-2010-3438
+libpoe-component-irc-perl before v6.32 does not remove carriage returns and line feeds. This can be used to execute arbitrary IRC commands by passing an argument such as "some text\rQUIT" to the 'privmsg' handler, which would cause the client to disconnect from the server.
+CWE-134
+
+
+CVE-2010-3440
+babiloo 2.0.9 before 2.0.11 creates temporary files with predictable names when downloading and unpacking dictionary files, allowing a local attacker to overwrite arbitrary files.
+CWE-494
+
+
+CVE-2010-3660
+TYPO3 before 4.1.14, 4.2.x before 4.2.13, 4.3.x before 4.3.4 and 4.4.x before 4.4.1 allows XSS on the backend.
+CWE-79
+
+
+CVE-2010-3661
+TYPO3 before 4.1.14, 4.2.x before 4.2.13, 4.3.x before 4.3.4 and 4.4.x before 4.4.1 allows Open Redirection on the backend.
+CWE-601
+
+
+CVE-2010-3662
+TYPO3 before 4.1.14, 4.2.x before 4.2.13, 4.3.x before 4.3.4 and 4.4.x before 4.4.1 allows SQL Injection on the backend.
+CWE-89
+
+
+CVE-2010-3663
+TYPO3 before 4.1.14, 4.2.x before 4.2.13, 4.3.x before 4.3.4 and 4.4.x before 4.4.1 contains an insecure default value of the variable fileDenyPattern which could allow remote attackers to execute arbitrary code on the backend.
+CWE-434
+
+
+CVE-2010-3665
+TYPO3 before 4.1.14, 4.2.x before 4.2.13, 4.3.x before 4.3.4 and 4.4.x before 4.4.1 allows XSS on the Extension Manager.
+CWE-79
+
+
+CVE-2010-3669
+TYPO3 before 4.2.13, 4.3.x before 4.3.4 and 4.4.x before 4.4.1 allows XSS and Open Redirection in the frontend login box.
+CWE-79
+
+
+CVE-2010-3672
+TYPO3 before 4.3.4 and 4.4.x before 4.4.1 allows XSS in the textarea view helper in an extbase extension.
+CWE-79
+
+
+CVE-2010-3674
+TYPO3 before 4.4.1 allows XSS in the frontend search box.
+CWE-79
+
+
+CVE-2010-3844
+An unchecked sscanf() call in ettercap before 0.7.5 allows an insecure temporary settings file to overflow a static-sized buffer on the stack.
+CWE-120
+
+
+CVE-2010-3857
+JBoss BRMS before 5.1.0 has a XSS vulnerability via asset=UUID parameter.
+CWE-79
+
+
+CVE-2010-4177
+mysql-gui-tools (mysql-query-browser and mysql-admin) before 5.0r14+openSUSE-2.3 exposes the password of a user connected to the MySQL server in clear text form via the list of running processes.
+CWE-319
+
+
+CVE-2010-4237
+Mercurial before 1.6.4 fails to verify the Common Name field of SSL certificates which allows remote attackers who acquire a certificate signed by a Certificate Authority to perform a man-in-the-middle attack.
+CWE-295
+
+
+CVE-2010-4240
+Tiki Wiki CMS Groupware 5.2 has XSS
+CWE-79
+
+
+CVE-2010-4245
+pootle 2.0.5 has XSS via 'match_names' parameter
+CWE-79
+
+
+CVE-2010-4532
+offlineimap before 6.3.2 does not check for SSL server certificate validation when "ssl = yes" option is specified which can allow man-in-the-middle attacks.
+CWE-295
+
+
+CVE-2010-4533
+offlineimap before 6.3.4 added support for SSL server certificate validation but it is still possible to use SSL v2 protocol, which is a flawed protocol with multiple security deficiencies.
+CWE-295
+
+
+CVE-2010-4653
+An integer overflow condition in poppler before 0.16.3 can occur when parsing CharCodes for fonts.
+CWE-190
+
+
+CVE-2010-4657
+PHP5 before 5.4.4 allows passing invalid utf-8 strings via the xmlTextWriterWriteAttribute, which are then misparsed by libxml2. This results in memory leak into the resulting output.
+CWE-772
+
+
+CVE-2010-4659
+Cross-site scripting (XSS) vulnerability in statusnet through 2010 in error message contents.
+CWE-79
+
+
+CVE-2010-4661
+udisks before 1.0.3 allows a local user to load arbitrary Linux kernel modules.
+CWE-434
+
+
+CVE-2010-4662
+PmWiki before 2.2.21 has XSS.
+CWE-79
+
+
+CVE-2010-4817
+pithos before 0.3.5 allows overwrite of arbitrary files via symlinks.
+CWE-59
+
+
+CVE-2010-5108
+Trac 0.11.6 does not properly check workflow permissions before modifying a ticket. This can be exploited by an attacker to change the status and resolution of tickets without having proper permissions.
+CWE-276
+
+
+CVE-2010-5304
+A NULL pointer dereference flaw was found in the way LibVNCServer before 0.9.9 handled certain ClientCutText message. A remote attacker could use this flaw to crash the VNC server by sending a specially crafted ClientCutText message from a VNC client.
+CWE-476
+
+
+CVE-2010-5331
+In the Linux kernel before 2.6.34, a range check issue in drivers/gpu/drm/radeon/atombios.c could cause an off by one (buffer overflow) problem. NOTE: At least one Linux maintainer believes that this CVE is incorrectly assigned and should be rejected because the value is hard coded and are not user-controllable where it is used
+CWE-193
+
+
+CVE-2010-5333
+The web server in Integard Pro and Home before 2.0.0.9037 and 2.2.x before 2.2.0.9037 has a buffer overflow via a long password in an administration login POST request, leading to arbitrary code execution. An SEH-overwrite buffer overflow already existed for the vulnerable software. This CVE is to track an alternate exploitation method, utilizing an EIP-overwrite buffer overflow.
+CWE-120
+
+
+CVE-2010-5334
+IceWarp Webclient before 10.2.1 has a directory traversal vulnerability. This can result in loss of confidential data of IceWarp Mailserver and the operating system. Input passed via a certain parameter (_c to basic/index.html) is not properly sanitised and can therefore be exploited to browse the partition where IceWarp is installed (or the whole system) and read arbitrary files.
+CWE-22
+
+
+CVE-2010-5335
+IceWarp Webclient before 10.2.1 has a directory traversal vulnerability. This can result in loss of confidential data of IceWarp Mailserver and the operating system. Input passed via a certain parameter (script to basic/minimizer/index.php) is not properly sanitised and can therefore be exploited to browse the partition where IceWarp is installed (or the whole system) and read arbitrary files.
+CWE-22
+
+
+CVE-2010-5336
+IceWarp Webclient before 10.2.1 has XSS via an HTTP POST request: admin/login.html with the parameter username is persistent in 10.2.0.
+CWE-79
+
+
+CVE-2010-5337
+IceWarp Webclient before 10.2.1 has XSS via an HTTP POST request: webmail/basic/ with the parameter _dlg[captcha][controller] is non-persistent in 10.1.3 and 10.2.0.
+CWE-79
+
+
+CVE-2010-5338
+IceWarp Webclient before 10.2.1 has XSS via an HTTP POST request: webmail/basic/ with the parameter _dlg[captcha][action] is non-persistent in 10.1.3 and 10.2.0.
+CWE-79
+
+
+CVE-2010-5339
+IceWarp Webclient before 10.2.1 has XSS via an HTTP POST request: webmail/basic/ with the parameter _dlg[captcha][uid] is non-persistent in 10.1.3 and 10.2.0.
+CWE-79
+
+
+CVE-2010-5340
+IceWarp Webclient before 10.2.1 has XSS via an HTTP POST request: webmail/ with the parameter password is non-persistent in 10.2.0.
+CWE-79
+
+

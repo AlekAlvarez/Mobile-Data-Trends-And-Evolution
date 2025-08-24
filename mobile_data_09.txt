@@ -1,0 +1,120 @@
+CVE-2009-0035
+alsa-utils 1.0.19 and later versions allows local users to overwrite arbitrary files via a symlink attack via the /usr/bin/alsa-info and /usr/bin/alsa-info.sh scripts.
+CWE-59
+
+
+CVE-2009-0947
+Multiple integer overflows in the (1) cdf_read_property_info and (2) cdf_read_sat functions in file before 5.02.
+CWE-190
+
+
+CVE-2009-0948
+Multiple buffer overflows in the (1) cdf_read_sat, (2) cdf_read_long_sector_chain, and (3) cdf_read_ssat function in file before 5.02.
+CWE-120
+
+
+CVE-2009-1142
+An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can gain privileges via a symlink attack on /tmp files if vmware-user-suid-wrapper is setuid root and the ChmodChownDirectory function is enabled.
+CWE-59
+
+
+CVE-2009-1143
+An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can bypass intended access restrictions on mounting shares via a symlink attack that leverages a realpath race condition in mount.vmhgfs (aka hgfsmounter).
+CWE-59
+
+
+CVE-2009-20001
+An issue was discovered in MantisBT before 2.24.5. It associates a unique cookie string with each user. This string is not reset upon logout (i.e., the user session is still considered valid and active), allowing an attacker who somehow gained access to a user's cookie to login as them.
+CWE-613
+
+
+CVE-2009-2802
+MantisBT 1.2.x before 1.2.2 insecurely handles attachments and MIME types. Arbitrary inline attachment rendering could lead to cross-domain scripting or other browser attacks.
+CWE-79
+
+
+CVE-2009-3552
+In RHEV-M VDC 2.2.0, it was found that the SSL certificate was not verified when using the client-side Red Hat Enterprise Virtualization Manager interface (a Windows Presentation Foundation (WPF) XAML browser application) to connect to the Red Hat Enterprise Virtualization Manager. An attacker on the local network could use this flaw to conduct a man-in-the-middle attack, tricking the user into thinking they are viewing the Red Hat Enterprise Virtualization Manager when the content is actually attacker-controlled, or modifying actions a user requested Red Hat Enterprise Virtualization Manager to perform.
+CWE-295
+
+
+CVE-2009-3724
+python-markdown2 before 1.0.1.14 has multiple cross-site scripting (XSS) issues.
+CWE-79
+
+
+CVE-2009-3887
+ytnef has directory traversal
+CWE-22
+
+
+CVE-2009-4067
+Buffer overflow in the auerswald_probe function in the Auerswald Linux USB driver for the Linux kernel before 2.6.27 allows physically proximate attackers to execute arbitrary code, cause a denial of service via a crafted USB device, or take full control of the system.
+CWE-120
+
+
+CVE-2009-4123
+The jruby-openssl gem before 0.6 for JRuby mishandles SSL certificate validation.
+CWE-295
+
+
+CVE-2009-4899
+pixelpost 1.7.1 has SQL injection
+CWE-89
+
+
+CVE-2009-4900
+pixelpost 1.7.1 has XSS
+CWE-79
+
+
+CVE-2009-5025
+A backdoor (aka BMSA-2009-07) was found in PyForum v1.0.3 where an attacker who knows a valid user email could force a password reset on behalf of that user.
+CWE-640
+
+
+CVE-2009-5041
+overkill has buffer overflow via long player names that can corrupt data on the server machine
+CWE-120
+
+
+CVE-2009-5046
+JSP Dump and Session Dump Servlet XSS in jetty before 6.1.22.
+CWE-79
+
+
+CVE-2009-5048
+Cookie Dump Servlet stored XSS vulnerability in jetty though 6.1.20.
+CWE-79
+
+
+CVE-2009-5049
+WebApp JSP Snoop page XSS in jetty though 6.1.21.
+CWE-79
+
+
+CVE-2009-5068
+There is a file disclosure vulnerability in SMF (Simple Machines Forum) affecting versions through v2.0.3. On some configurations a SMF deployment is shared by several "co-admins" that are not trusted beyond the SMF deployment. This vulnerability allows them to read arbitrary files on the filesystem and therefore gain new privileges by reading the settings.php with the database passwords.
+CWE-312
+
+
+CVE-2009-5139
+The SIP implementation on the Gizmo5 software phone provides hashed credentials in a response to an invalid authentication challenge, which makes it easier for remote attackers to obtain access via a brute-force attack, related to a "SIP Digest Leak" issue.
+CWE-916
+
+
+CVE-2009-5140
+The SIP implementation on the Linksys SPA2102 phone adapter provides hashed credentials in a response to an invalid authentication challenge, which makes it easier for remote attackers to obtain access via a brute-force attack, related to a "SIP Digest Leak" issue.
+CWE-307
+
+
+CVE-2009-5154
+An issue was discovered on MOBOTIX S14 MX-V4.2.1.61 devices. There is a default password of meinsm for the admin account.
+CWE-798
+
+
+CVE-2009-5159
+Invision Power Board (aka IPB or IP.Board) 2.x through 3.0.4, when Internet Explorer 5 is used, allows XSS via a .txt attachment.
+CWE-79
+
+

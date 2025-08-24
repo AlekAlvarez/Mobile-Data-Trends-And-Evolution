@@ -1,0 +1,900 @@
+CVE-2014-0104
+In fence-agents before 4.0.17 does not verify remote SSL certificates in the fence_cisco_ucs.py script which can potentially allow for man-in-the-middle attackers to spoof SSL servers via arbitrary SSL certificates.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:clusterlabs:fence-agents:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-02T17:15Z
+
+CVE-2014-0161
+ovirt-engine-sdk-python before 3.4.0.7 and 3.5.0.4 does not verify that the hostname of the remote endpoint matches the Common Name (CN) or subjectAltName as specified by its x.509 certificate in a TLS/SSL session. This could allow man-in-the-middle attackers to spoof remote endpoints via an arbitrary valid certificate.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ovirt-engine-sdk-python_project:ovirt-engine-sdk-python:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-02T18:15Z
+
+CVE-2014-0175
+mcollective has a default password set at install
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-12-13T13:15Z
+
+CVE-2014-0242
+mod_wsgi module before 3.4 for Apache, when used in embedded mode, might allow remote attackers to obtain sensitive information via the Content-Type header which is generated from memory that may have been freed and then overwritten by a separate thread.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:modwsgi:mod_wsgi:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-12-09T20:15Z
+
+CVE-2014-0245
+It was found that the implementation of the GTNSubjectCreatingInterceptor class in gatein-wsrp was not thread safe. For a specific WSRP endpoint, under high-concurrency scenarios or scenarios where SOAP messages take long to execute, it was possible for an unauthenticated remote attacker to gain privileged information if WS-Security is enabled for the WSRP Consumer, and the endpoint in question is being used by a privileged user. This affects JBoss Portal 6.2.0.
+CWE-362
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:redhat:jboss_portal:6.2.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-01-02T20:15Z
+
+CVE-2014-0882
+Integrated Management Module II (IMM2) on IBM Flex System, NeXtScale, System x3xxx, and System x iDataPlex systems might allow remote authenticated users to obtain sensitive account information via vectors related to generated Service Advisor data (FFDC). IBM X-Force ID: 91149.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-25T20:29Z
+
+CVE-2014-0912
+IBM Sterling B2B Integrator 5.1 and 5.2 and Sterling File Gateway 2.1 and 2.2 allow remote attackers to obtain sensitive product information via vectors related to an error page. IBM X-Force ID: 92072.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:sterling_file_gateway:2.2:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-20T21:29Z
+
+CVE-2014-10047
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Mobile SD 400 and SD 800, when writing the Full Disk Encryption key to crypto engine, information leak could occur.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-10053
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 615/16/SD 415, SD 450, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, and SD 850, data access is not properly validated in the Widevine secure application.
+CWE-284
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-10054
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9635M, MDM9640, MDM9650, MSM8909W, QCA6174A, QCA6574AU, QCA9377, QCA9379, SD 210/SD 212/SD 205, SD 400, SD 450, SD 410/12, SD 425, SD 430, SD 600, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, and SDX20, lack of input validation on BT HCI commands processing allows privilege escalation.
+CWE-264
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-10055
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Mobile SD 400 and SD 800, there could be leakage of protected contents if HLOS doesn't request for security restoration for OCMEM xPU's.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-10062
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Mobile and Snapdragon Wear MDM9206, MDM9607, MDM9640, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 600, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 835, and SDX20, LocationService is being exported, which is a way for a service to expose its methods to other services. This makes it possible for any other services to import LocationService and call into the exposed method for bringing up a data connection.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-10076
+The wp-db-backup plugin 2.2.4 for WordPress relies on a five-character string for access control, which makes it easier for remote attackers to read backup archives via a brute-force attack.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:wp-db-backup_project:wp-db-backup:2.2.4:*:*:*:*:wordpress:*:*
+Not Foundational
+Published Date: 2018-10-05T06:29Z
+
+CVE-2014-10079
+In Vembu StoreGrid 4.4.x, the front page of the server web interface leaks the private IP address in the "ipaddress" hidden form value of the HTML source code, which is disclosed because of incorrect processing of an index.php/ trailing slash.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:vembu:storegrid:4.4:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-02-23T14:29Z
+
+CVE-2014-10374
+On Fitbit activity-tracker devices, certain addresses never change. According to the popets-2019-0036.pdf document, this leads to "permanent trackability" and "considerable privacy concerns" without a user-accessible anonymization feature. The devices, such as Charge 2, transmit Bluetooth Low Energy (BLE) advertising packets with a TxAdd flag indicating random addresses, but the addresses remain constant. If devices come within BLE range at one or more locations where an adversary has set up passive sniffing, the adversary can determine whether the same device has entered one of these locations.
+CWE-200
+ADJACENT_NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2019-07-15T13:15Z
+
+CVE-2014-10388
+The wp-support-plus-responsive-ticket-system plugin before 4.2 for WordPress has full path disclosure.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:wpsupportplus:wp_support_plus_responsive_ticket_system:*:*:*:*:*:wordpress:*:*
+foundational
+Published Date: 2019-08-22T19:15Z
+
+CVE-2014-125030
+A vulnerability, which was classified as critical, has been found in taoeffect Empress. Affected by this issue is some unknown functionality. The manipulation leads to use of hard-coded password. The patch is identified as 557e177d8a309d6f0f26de46efb38d43e000852d. It is recommended to apply a patch to fix this issue. VDB-217154 is the identifier assigned to this vulnerability.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:empress_project:empress:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-01-01T09:15Z
+
+CVE-2014-1686
+MediaWiki 1.18.0 allows remote attackers to obtain the installation path via vectors related to thumbnail creation.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:mediawiki:mediawiki:1.18.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-04-16T09:58Z
+
+CVE-2014-2078
+The backend in Open-Xchange (OX) AppSuite 7.4.2 before 7.4.2-rev9 allows remote attackers to obtain sensitive information about user email addresses in opportunistic circumstances by leveraging a failure in e-mail auto configuration for external accounts.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:open-xchange:open-xchange_appsuite:7.4.2:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-10T15:29Z
+
+CVE-2014-2214
+Multiple cross-site scripting (XSS) vulnerabilities in POSH (aka Posh portal or Portaneo) 3.0 through 3.2.1 allow remote attackers to inject arbitrary web script or HTML via the (1) error parameter to /includes/plugins/mobile/scripts/login.php or (2) id parameter to portal/openrssarticle.php
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:posh_project:posh:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-11-22T19:15Z
+
+CVE-2014-2312
+The main function in android_main.cpp in thermald allows local users to write to arbitrary files via a symlink attack on /tmp/thermald.pid.
+CWE-59
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:intel:thermald:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-03-26T18:29Z
+
+CVE-2014-2359
+OleumTech Wireless Sensor Network devices allow remote attackers to obtain sensitive information about sensor nodes or spoof devices by reading cleartext protocol data.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-06T16:29Z
+
+CVE-2014-2884
+The ProcessVolumeDeviceControlIrp function in Ntdriver.c in TrueCrypt 7.1a allows local users to bypass access restrictions and obtain sensitive information about arbitrary files via a (1) TC_IOCTL_OPEN_TEST or (2) TC_IOCTL_GET_SYSTEM_DRIVE_CONFIG IOCTL call.
+CWE-200
+LOCAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:truecrypt_project:truecrypt:7.1:a:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-19T21:29Z
+
+CVE-2014-2885
+Multiple integer overflows in TrueCrypt 7.1a allow local users to (1) obtain sensitive information via vectors involving a crafted item->OriginalLength value in the MainThreadProc function in EncryptedIoQueue.c or (2) cause a denial of service (memory consumption) via vectors involving large StartingOffset and Length values in the ProcessVolumeDeviceControlIrp function in Ntdriver.c.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:truecrypt_project:truecrypt:7.1:a:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-19T21:29Z
+
+CVE-2014-2901
+wolfssl before 3.2.0 does not properly issue certificates for a server's hostname.
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:wolfssl:wolfssl:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-11-21T23:15Z
+
+CVE-2014-2902
+wolfssl before 3.2.0 does not properly authorize CA certificate for signing other certificates.
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:wolfssl:wolfssl:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-11-21T23:15Z
+
+CVE-2014-2906
+The psub function in fish (aka fish-shell) 1.16.0 before 2.1.1 does not properly create temporary files, which allows local users to execute arbitrary commands via a temporary file with a predictable name.
+CWE-362
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:fishshell:fish:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-28T16:15Z
+
+CVE-2014-3205
+backupmgt/pre_connect_check.php in Seagate BlackArmor NAS contains a hard-coded password of '!~@##$$%FREDESWWSED' for a backdoor user.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-02-23T17:29Z
+
+CVE-2014-3230
+The libwww-perl LWP::Protocol::https module 6.04 through 6.06 for Perl, when using IO::Socket::SSL as the SSL socket class, allows attackers to disable server certificate validation via the (1) HTTPS_CA_DIR or (2) HTTPS_CA_FILE environment variable.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:lwp\:\:protocol\:\:https_project:lwp\:\:protocol\:\:https:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-01-28T16:15Z
+
+CVE-2014-3413
+The MySQL server in Juniper Networks Junos Space before 13.3R1.8 has an unspecified account with a hardcoded password, which allows remote attackers to obtain sensitive information and consequently obtain administrative control by leveraging database access.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:juniper:junos_space:13.3:r1.7:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-05T17:29Z
+
+CVE-2014-3495
+duplicity 0.6.24 has improper verification of SSL certificates
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-12-13T14:15Z
+
+CVE-2014-3591
+Libgcrypt before 1.6.3 and GnuPG before 1.4.19 does not implement ciphertext blinding for Elgamal decryption, which allows physically proximate attackers to obtain the server's private key by determining factors using crafted ciphertext and the fluctuations in the electromagnetic field during multiplication.
+CWE-200
+PHYSICAL
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-11-29T22:15Z
+
+CVE-2014-3603
+The (1) HttpResource and (2) FileBackedHttpResource implementations in Shibboleth Identity Provider (IdP) before 2.4.1 and OpenSAML Java 2.6.2 do not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.
+CWE-297
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:shibboleth:opensaml_java:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-04-04T14:29Z
+
+CVE-2014-3607
+DefaultHostnameVerifier in Ldaptive (formerly vt-ldap) does not properly verify that the server hostname matches a domain name in the subject's Common Name (CN) field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ldaptive:vt-ldap:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-01-08T19:29Z
+
+CVE-2014-3701
+eDeploy has tmp file race condition flaws
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:redhat:jboss_enterprise_web_server:1.0.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-12-15T22:15Z
+
+CVE-2014-3753
+AgileBits 1Password through 1.0.9.340 allows security feature bypass
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:1password:1password:*:*:*:*:*:windows:*:*
+foundational
+Published Date: 2020-01-09T14:15Z
+
+CVE-2014-3856
+The funced function in fish (aka fish-shell) 1.23.0 before 2.1.1 does not properly create temporary files, which allows local users to gain privileges via a temporary file with a predictable name.
+CWE-362
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:fishshell:fish:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-28T16:15Z
+
+CVE-2014-4019
+ZTE ZXV10 W300 router with firmware W300V1.0.0a_ZRD_LK stores sensitive information under the web root with insufficient access control, which allows remote attackers to read backup files via a direct request for rom-0.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-02-20T18:15Z
+
+CVE-2014-4024
+SSL virtual servers in F5 BIG-IP systems 10.x before 10.2.4 HF9, 11.x before 11.2.1 HF12, 11.3.0 before HF10, 11.4.0 before HF8, 11.4.1 before HF5, 11.5.0 before HF5, and 11.5.1 before HF5, when used with third-party Secure Sockets Layer (SSL) accelerator cards, might allow remote attackers to have unspecified impact via a timing side-channel attack.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:f5:big-ip_wan_optimization_manager:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-03-19T21:29Z
+
+CVE-2014-4658
+The vault subsystem in Ansible before 1.5.5 does not set the umask before creation or modification of a vault file, which allows local users to obtain sensitive key information by reading a file.
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:redhat:ansible:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-02-20T15:15Z
+
+CVE-2014-4782
+IBM InfoSphere BigInsights 2.1.2 allows remote authenticated users to discover SMTP server credentials via vectors related to the Alert management service. IBM X-Force ID: 95029.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:infosphere_biginsights:2.1.2:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-20T20:29Z
+
+CVE-2014-4991
+(1) lib/dataset/database/mysql.rb and (2) lib/dataset/database/postgresql.rb in the codders-dataset gem 1.3.2.1 for Ruby place credentials on the mysqldump command line, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:codders-dataset_project:codders-dataset:1.3.2.1:*:*:*:*:ruby:*:*
+foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-4992
+lib/cap-strap/helpers.rb in the cap-strap gem 0.1.5 for Ruby places credentials on the useradd command line, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cap-strap_project:cap-strap:0.1.5:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-4993
+(1) lib/backup/cli/utility.rb in the backup-agoddard gem 3.0.28 and (2) lib/backup/cli/utility.rb in the backup_checksum gem 3.0.23 for Ruby place credentials on the openssl command line, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:backup-agoddard_project:backup-agoddard:3.0.28:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-4995
+Race condition in lib/vlad/dba/mysql.rb in the VladTheEnterprising gem 0.2 for Ruby allows local users to obtain sensitive information by reading the MySQL root password from a temporary file before it is removed.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:vladtheenterprising_project:vladtheenterprising:0.2.0:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-4997
+lib/commands/setup.rb in the point-cli gem 0.0.1 for Ruby places credentials on the curl command line, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:point-cli_project:point-cli:0.0.1:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-4998
+test/tc_database.rb in the lean-ruport gem 0.3.8 for Ruby places the mysql user password on the mysqldump command line, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:lean-ruport_project:lean-ruport:0.3.8:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-4999
+vendor/plugins/dataset/lib/dataset/database/mysql.rb in the kajam gem 1.0.3.rc2 for Ruby places the mysql user password on the (1) mysqldump command line in the capture function and (2) mysql command line in the restore function, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:kajam_project:kajam:1.0.3:rc2:*:*:*:ruby:*:*
+foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-5000
+The login function in lib/lawn.rb in the lawn-login gem 0.0.7 for Ruby places credentials on the curl command line, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:lawn-login_project:lawn-login:0.0.7:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-5001
+lib/ksymfony1.rb in the kcapifony gem 2.1.6 for Ruby places database user passwords on the (1) mysqldump, (2) pg_dump, (3) mysql, and (4) psql command lines, which allows local users to obtain sensitive information by listing the processes.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:kcapifony_project:kcapifony:2.1.6:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-5004
+lib/brbackup.rb in the brbackup gem 0.1.1 for Ruby places the database password on the mysql command line, which allows local users to obtain sensitive information by listing the process.
+CWE-200
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:brbackup_project:brbackup:0.1.1:*:*:*:*:ruby:*:*
+Not Foundational
+Published Date: 2018-01-10T18:29Z
+
+CVE-2014-5011
+DOMPDF before 0.6.2 allows Information Disclosure.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:dompdf_project:dompdf:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-10T06:15Z
+
+CVE-2014-5028
+The Original File and Patched File resources in Review Board 1.7.x before 1.7.27 and 2.0.x before 2.0.4 allow remote authenticated users to bypass intended access restrictions and obtain sensitive information from repository files by leveraging knowledge of database ids.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:reviewboard:review_board:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-03-29T18:29Z
+
+CVE-2014-5130
+Avolve Software ProjectDox 8.1 allows remote authenticated users to obtain sensitive information from other users via vectors involving a direct access token.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:avolvesoftware:projectdox:8.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-27T21:29Z
+
+CVE-2014-5131
+Avolve Software ProjectDox 8.1 makes it easier for remote authenticated users to obtain sensitive information by leveraging ciphertext reuse.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:avolvesoftware:projectdox:8.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-27T21:29Z
+
+CVE-2014-5132
+Avolve Software ProjectDox 8.1 allows remote attackers to enumerate users via vectors related to email addresses.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:avolvesoftware:projectdox:8.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-27T21:29Z
+
+CVE-2014-5209
+An Information Disclosure vulnerability exists in NTP 4.2.7p25 private (mode 6/7) messages via a GET_RESTRICT control message, which could let a malicious user obtain sensitive information.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:f5:websafe:1.0.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-08T01:15Z
+
+CVE-2014-5254
+xcfa before 5.0.1 creates temporary files insecurely which could allow local users to launch a symlink attack and overwrite arbitrary files.
+CWE-362
+LOCAL
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:xcfa_project:xcfa:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-11-21T23:15Z
+
+CVE-2014-5255
+xcfa before 5.0.1 creates temporary files insecurely which could allow local users to launch a symlink attack and overwrite arbitrary files. Note: A different vulnerability than CVE-2014-5254.
+CWE-362
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-11-21T23:15Z
+
+CVE-2014-5380
+Grand MA 300 allows retrieval of the access PIN from sniffed data.
+CWE-319
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-01-13T13:15Z
+
+CVE-2014-5394
+Multiple Huawei Campus switches allow remote attackers to enumerate usernames via vectors involving use of SSH by the maintenance terminal.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-01-08T19:29Z
+
+CVE-2014-5431
+Baxter SIGMA Spectrum Infusion System version 6.05 (model 35700BAX) with wireless battery module (WBM) version 16 contains a hard-coded password, which provides access to basic biomedical information, limited device settings, and network configuration of the WBM, if connected. The hard-coded password may allow an attacker with physical access to the device to access management functions to make unauthorized configuration changes to biomedical settings such as turn on and off wireless connections and the phase-complete audible alarm that indicates the end of an infusion phase. Baxter has released a new version of the SIGMA Spectrum Infusion System, version 8, which incorporates hardware and software changes.
+CWE-798
+PHYSICAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2019-03-26T16:29Z
+
+CVE-2014-5434
+Baxter SIGMA Spectrum Infusion System version 6.05 (model 35700BAX) with wireless battery module (WBM) version 16 has a default account with hard-coded credentials used with the FTP protocol. Baxter asserts no files can be transferred to or from the WBM using this account. Baxter has released a new version of the SIGMA Spectrum Infusion System, Version 8, which incorporates hardware and software changes.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2019-03-26T15:29Z
+
+CVE-2014-5450
+Zarafa Collaboration Platform 4.1 uses world-readable permissions for /etc/zarafa/license, which allows local users to obtain sensitive information by reading license files.
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:zarafa:zarafa_collaboration_platform:4.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-19T21:29Z
+
+CVE-2014-6038
+Zoho ManageEngine EventLog Analyzer versions 7 through 9.9 build 9002 have a database Information Disclosure Vulnerability. Fixed in EventLog Analyzer 10.0 Build 10000.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:zohocorp:manageengine_eventlog_analyzer:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-01-13T13:15Z
+
+CVE-2014-6048
+phpMyFAQ before 2.8.13 allows remote attackers to read arbitrary attachments via a direct request.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:phpmyfaq:phpmyfaq:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-08-28T17:29Z
+
+CVE-2014-6108
+IBM Tivoli Identity Manager 5.1.x before 5.1.0.15-ISS-TIM-IF0057 and Security Identity Manager 6.0.x before 6.0.0.4-ISS-SIM-IF0001 and 7.0.x before 7.0.0.0-ISS-SIM-IF0003 might allow man-in-the-middle attackers to obtain sensitive information by leveraging an unencrypted connection for interfaces. IBM X-Force ID: 96172.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ibm:tivoli_identity_manager:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-20T20:29Z
+
+CVE-2014-6109
+IBM Tivoli Identity Manager 5.1.x before 5.1.0.15-ISS-TIM-IF0057 and Security Identity Manager 6.0.x before 6.0.0.4-ISS-SIM-IF0001 and 7.0.x before 7.0.0.0-ISS-SIM-IF0003 allow remote authenticated users to bypass intended access restrictions and obtain sensitive information via vectors related to server side LDAP queries. IBM X-Force ID: 96173.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ibm:tivoli_identity_manager:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-20T20:29Z
+
+CVE-2014-6112
+IBM Tivoli Identity Manager 5.1.x before 5.1.0.15-ISS-TIM-IF0057 and Security Identity Manager 6.0.x before 6.0.0.4-ISS-SIM-IF0001 and 7.0.x before 7.0.0.0-ISS-SIM-IF0003 make it easier for remote attackers to obtain sensitive information by leveraging support for weak SSL ciphers. IBM X-Force ID: 96184.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ibm:tivoli_identity_manager:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-20T20:29Z
+
+CVE-2014-6275
+FusionForge before 5.3.2 use scripts that run under the shared Apache user, which is also used by project homepages by default. If project webpages are hosted on the same server than FusionForge, it can allow users to incorrectly access on-disk private data in FusionForge.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-02T22:15Z
+
+CVE-2014-6309
+The HTTP and WebSocket engine components in the server in Kaazing Gateway 4.0.2, 4.0.3, and 4.0.4 and Gateway - JMS Edition 4.0.2, 4.0.3, and 4.0.4 allow remote attackers to obtain sensitive information via vectors related to HTTP request handling.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:tenefit:kaazing_websocket_gateway:4.0.4:*:*:*:jms:*:*:*
+Not Foundational
+Published Date: 2018-04-12T15:29Z
+
+CVE-2014-6437
+Aztech ADSL DSL5018EN (1T1R), DSL705E, and DSL705EU devices allow remote attackers to obtain sensitive device configuration information via vectors involving the ROM file.
+CWE-200
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-01-12T17:29Z
+
+CVE-2014-6617
+Softing FG-100 PB PROFIBUS firmware version FG-x00-PB_V2.02.0.00 contains a hardcoded password for the root account, which allows remote attackers to obtain administrative access via a TELNET session.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-03-09T20:29Z
+
+CVE-2014-7143
+Python Twisted 14.0 trustRoot is not respected in HTTP client
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:twisted:twisted:14.0.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-11-12T14:15Z
+
+CVE-2014-7863
+The FailOverHelperServlet (aka FailServlet) servlet in ZOHO ManageEngine Applications Manager before 11.9 build 11912, OpManager 8 through 11.5 build 11400, and IT360 10.5 and earlier does not properly restrict access, which allows remote attackers and remote authenticated users to (1) read arbitrary files via the fileName parameter in a copyfile operation or (2) obtain sensitive information via a directory listing in a listdirectory operation to servlet/FailOverHelperServlet.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:zohocorp:manageengine_applications_manager:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-02-08T17:15Z
+
+CVE-2014-8164
+A insecure configuration for certificate verification (http.verify_mode = OpenSSL::SSL::VERIFY_NONE) may lead to verification bypass in Red Hat CloudForms 5.x.
+CWE-295
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:redhat:cloudforms_management_engine:5.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2022-07-06T20:15Z
+
+CVE-2014-8167
+vdsm and vdsclient does not validate certficate hostname from another vdsm which could facilitate a man-in-the-middle attack
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:redhat:virtual_desktop_server_manager:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-11-13T17:15Z
+
+CVE-2014-8328
+The default configuration in the Dynamic Content Elements (dce) extension before 0.11.5 for TYPO3 allows remote attackers to obtain sensitive installation environment information by reading the update check request.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:dynamic_content_elements_project:dynamic_content_elements:*:*:*:*:*:typo3:*:*
+foundational
+Published Date: 2020-02-03T14:15Z
+
+CVE-2014-8579
+TRENDnet TEW-823DRU devices with firmware before 1.00b36 have a hardcoded password of kcodeskcodes for the root account, which makes it easier for remote attackers to obtain access via an FTP session.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-01-05T16:29Z
+
+CVE-2014-8940
+Lexiglot through 2014-11-20 allows remote attackers to obtain sensitive information (names and details of projects) by visiting the /update.log URI.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:piwigo:lexiglot:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-06-01T17:15Z
+
+CVE-2014-9127
+Open-School Community Edition 2.2 does not properly restrict access to the export functionality, which allows remote authenticated users to obtain sensitive information via the r parameter with the value export to index.php.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:open-school:open-school:2.2:*:*:*:community:*:*:*
+Not Foundational
+Published Date: 2020-02-08T17:15Z
+
+CVE-2014-9481
+The Scribunto extension for MediaWiki allows remote attackers to obtain the rollback token and possibly other sensitive information via a crafted module, related to unstripping special page HTML.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:mediawiki:mediawiki:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-27T16:15Z
+
+CVE-2014-9614
+The Web Panel in Netsweeper before 4.0.5 has a default password of branding for the branding account, which makes it easier for remote attackers to obtain access via a request to webadmin/.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:netsweeper:netsweeper:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-02-19T20:15Z
+
+CVE-2014-9699
+The MakerBot Replicator 5G printer runs an Apache HTTP Server with directory indexing enabled. Apache logs, system logs, design files (i.e., a history of print files), and more are exposed to unauthenticated attackers through this HTTP server.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2019-06-24T21:15Z
+
+CVE-2014-9748
+The uv_rwlock_t fallback implementation for Windows XP and Server 2003 in libuv before 1.7.4 does not properly prevent threads from releasing the locks of other threads, which allows attackers to cause a denial of service (deadlock) or possibly have unspecified other impact by leveraging a race condition.
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-02-11T17:15Z
+
+CVE-2014-9986
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, and SD 820A, in playready_licacq_process_response(), 'cbResponse' value is controlled by HLOS, and there is no validation on this length. If 'cbResponse' is too large, memory overread occurs.
+CWE-119
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-9987
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9650, SD 210/SD 212/SD 205, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, and SD 850, a buffer over-read can occur in a DRM API.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-9988
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear SD 820A, IPQ4019, MDM9206, MDM9607, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 410/12, SD 425, SD 430, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 835, SD 845, SD 450, and SD 850, lack of input validation for message length causes buffer over read in drm_app_encapsulate_save_keys.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-9993
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, SD 450, and SD 850, buffer overread vulnerability may occur while provisioning a content with a large message.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2014-9998
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear IPQ4019, IPQ8064, MDM9206, MDM9607, MDM9635M, MDM9640, MDM9650, QCA4531, QCA6174A, QCA6574AU, QCA6584, QCA6584AU, QCA9377, QCA9378, QCA9379, QCA9558, QCA9880, QCA9886, QCA9980, SD 210/SD 212/SD 205, SD 425, SD 625, SD 808, SD 810, SD 820, and SDX20, while processing firmware image signature, the internal buffer may overflow if the firmware signature size is large.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+

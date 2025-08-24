@@ -1,0 +1,1660 @@
+CVE-2016-0205
+A vulnerability has been identified in IBM Cloud Orchestrator 2.3, 2.3.0.1, 2.4, and 2.4.0.1 that could allow an attacker after authentication to enumerate valid users of the system. IBM X-Force ID: 109394.
+CWE-200
+LOCAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:cloud_orchestrator:2.3.0.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-08-30T16:29Z
+
+CVE-2016-0235
+IBM Security Guardium Database Activity Monitor 10 allows local users to have unspecified impact by leveraging administrator access to a hardcoded password, related to use on GRUB systems. IBM X-Force ID: 110326.
+CWE-798
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:security_guardium_database_activity_monitor:10.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-12T21:29Z
+
+CVE-2016-0237
+IBM Security Guardium Database Activity Monitor 10 allows local users to obtain sensitive information by reading cached browser data. IBM X-Force ID: 110328.
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:security_guardium_database_activity_monitor:10.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-12T21:29Z
+
+CVE-2016-0275
+IBM Financial Transaction Manager (FTM) for ACH Services for Multi-Platform 2.1.1.2 and 3.0.0.x before fp0013, Financial Transaction Manager (FTM) for Check Services for Multi-Platform 2.1.1.2 and 3.0.0.x before fp0013, and Financial Transaction Manager (FTM) for Corporate Payment Services (CPS) for Multi-Platform 2.1.1.2 and 3.0.0.x before fp0013 allows local users to obtain sensitive information via vectors related to cacheable HTTPS responses.
+CWE-200
+LOCAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:financial_transaction_manager:2.1.1.2:*:*:*:*:cps_services:*:*
+Not Foundational
+Published Date: 2018-03-09T19:29Z
+
+CVE-2016-0286
+IBM Tivoli Business Service Manager 6.1.0 before 6.1.0-TIV-BSM-FP0004 and 6.1.1 before 6.1.1-TIV-BSM-FP0004 allows remote authenticated users to obtain administrator passwords by leveraging unspecified privileges. BM X-Force ID: 111234.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:tivoli_business_service_manager:6.1.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-09T19:29Z
+
+CVE-2016-0299
+IBM TRIRIGA Application Platform 3.3 before 3.3.2.6, 3.4 before 3.4.2.3, and 3.5 before 3.5.0.1 allows remote attackers to obtain sensitive information via vectors involving a database query. IBM X-Force ID: 111382.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:tririga_application_platform:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-02-28T17:29Z
+
+CVE-2016-0312
+IBM TRIRIGA Application Platform before 3.3.2 allows remote attackers to obtain sensitive information via vectors related to granting unauthenticated access to Document Manager. IBM X-Force ID: 111486.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:tririga_application_platform:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-02-02T21:29Z
+
+CVE-2016-0343
+IBM TRIRIGA Application Platform 3.3 before 3.3.2.6, 3.4 before 3.4.2.3, and 3.5 before 3.5.0.1 allows remote authenticated users to obtain sensitive information by reading an error message. IBM X-Force ID: 111784.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:tririga_application_platform:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-02-21T16:29Z
+
+CVE-2016-0345
+IBM TRIRIGA Application Platform 3.3 before 3.3.2.6, 3.4 before 3.4.2.3, and 3.5 before 3.5.0.1 allows remote authenticated users to obtain the installation path via vectors involving Birt report rendering. IBM X-Force ID: 111786.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:tririga_application_platform:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-02-21T16:29Z
+
+CVE-2016-0351
+IBM Security Identity Manager Virtual Appliance 7.0.x before 7.0.1.3-ISS-SIM-IF0001 does not set the secure flag for the session cookie in an HTTPS session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an HTTP session. IBM X-Force ID: 111890.
+CWE-200
+NETWORK
+Severity: LOW
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ibm:security_identity_manager_virtual_appliance:7.0.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-02-21T16:29Z
+
+CVE-2016-0366
+IBM Security Identity Manager Virtual Appliance 7.0.x before 7.0.1.3-ISS-SIM-IF0001 might allow remote attackers to obtain sensitive information by leveraging weak encryption. IBM X-Force ID: 112071.
+CWE-200
+NETWORK
+Severity: LOW
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ibm:security_privileged_identity_manager:2.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-02-21T16:29Z
+
+CVE-2016-0367
+IBM Security Identity Manager Virtual Appliance 7.0.x before 7.0.1.3-ISS-SIM-IF0001 allows remote authenticated users to obtain sensitive information by reading an error message. IBM X-Force ID: 112072.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:security_identity_manager_virtual_appliance:7.0.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-02-21T16:29Z
+
+CVE-2016-0708
+Applications deployed to Cloud Foundry, versions v166 through v227, may be vulnerable to a remote disclosure of information, including, but not limited to environment variables and bound service details. For applications to be vulnerable, they must have been staged using automatic buildpack detection, passed through the Java Buildpack detection script, and allow the serving of static content from within the deployed artifact. The default Apache Tomcat configuration in the affected java buildpack versions for some basic web application archive (WAR) packaged applications are vulnerable to this issue.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:cloudfoundry:cf-release:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-07-11T20:29Z
+
+CVE-2016-0715
+Pivotal Cloud Foundry Elastic Runtime version 1.4.0 through 1.4.5, 1.5.0 through 1.5.11 and 1.6.0 through 1.6.11 is vulnerable to a remote information disclosure. It was found that original mitigation configuration instructions provided as part of CVE-2016-0708 were incomplete and could leave PHP Buildpack, Staticfile Buildpack and potentially other custom Buildpack applications vulnerable to remote information disclosure. Affected applications use automated buildpack detection, serve files directly from the root of the application and have a buildpack that matched after the Java Buildpack in the system buildpack priority when Java Buildpack versions 2.0 through 3.4 were present.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:pivotal_software:cloud_foundry_elastic_runtime:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-09-11T17:29Z
+
+CVE-2016-1000002
+gdm3 3.14.2 and possibly later has an information leak before screen lock
+CWE-200
+PHYSICAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:opensuse:leap:42.2:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-11-05T14:15Z
+
+CVE-2016-1000030
+Pidgin version <2.11.0 contains a vulnerability in X.509 Certificates imports specifically due to improper check of return values from gnutls_x509_crt_init() and gnutls_x509_crt_import() that can result in code execution. This attack appear to be exploitable via custom X.509 certificate from another client. This vulnerability appears to have been fixed in 2.11.0.
+CWE-295
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:pidgin:pidgin:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-09-05T17:29Z
+
+CVE-2016-1000236
+Node-cookie-signature before 1.0.6 is affected by a timing attack due to the type of comparison used.
+CWE-362
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-11-19T17:15Z
+
+CVE-2016-10234
+An information disclosure vulnerability in the Qualcomm IPA driver. Product: Android. Versions: Android kernel. Android ID: A-34390017. References: QC-CR#1069060.
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-04T18:29Z
+
+CVE-2016-10236
+An information disclosure vulnerability in the Qualcomm USB driver. Product: Android. Versions: Android kernel. Android ID: A-33280689. References: QC-CR#1102418.
+CWE-200
+LOCAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-04T18:29Z
+
+CVE-2016-10406
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Mobile MDM9650, SD 210/SD 212/SD 205, SD 410/12, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, and SD 835, while printing debug message of a pointer in wlan_qmi_err_cb, the real kernel address will be printed regardless of the kptr_restrict system settings.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10409
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, SD 820A, and SD 835, TOCTOU vulnerability may occur while composing the RPMB request using HLOS controlled buffers.
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10414
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Small Cell SoC, Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear FSM9055, IPQ4019, MDM9206, MDM9607, MDM9625, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, SD 850, and SDX20, when a hash is passed with zero datalength, the code returns an error, even though zero data length is valid.
+CWE-388
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10417
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear IPQ4019, MDM9206, MDM9607, MDM9625, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, and SDX20, in QTEE, a TOCTOU vulnerability exists due to improper access control.
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10418
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9650, SD 210/SD 212/SD 205, SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, SD 820A, and SD 835, HLOS can enable PMIC debug through TCSR_QPDI_DISABLE_CFG due to improper access control.
+CWE-284
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10422
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Small Cell SoC, Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear FSM9055, IPQ4019, MDM9206, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, SD 850, and SDX20, improper access control in system call leads to unauthorized access.
+CWE-284
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10423
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, and SD 820A, when a Trusted Application has opened the SPI interface to a particular device, it is possible for another Trusted Application to read the data on this open interface due to non-exclusive access of the SPI bus.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10424
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9650, SD 210/SD 212/SD 205, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 820, SD 820A, SD 835, SD 845, and SD 850, upgrading LibPNG from 1.6.12 to 1.6.21 fixes multiple issues with different CWEs.
+NVD-CWE-noinfo
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10425
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, and SD 835, if GPT listener response is passed a large buffer offset, a buffer overflow occurs.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10426
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 410/12, SD 425, SD 430, SD 450, SD 617, SD 625, SD 650/52, SD 810, SD 820, and SD 820A, a buffer overflow can occur in SafeSwitch.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10428
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, and SD 820A, HMAC verification in counter file uses an insecure memcmp which may assist a timing attack.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10429
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Small Cell SoC, Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear FSM9055, IPQ4019, MDM9206, MDM9607, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, and SDX20, three image types are loaded in the same manner without distinguishing them.
+CWE-19
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10430
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, and SD 820A, when executing a TA which has been granted privileges to the CPVC MINK class it is possible for the TA to access methods exposed by the CPVC interface.
+CWE-200
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10431
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9650, SD 210/SD 212/SD 205, SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, SD 820A, SD 835, SD 845, and SD 850, TZ applications are not properly validated.
+CWE-20
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10432
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 410/12, SD 425, SD 430, SD 450, SD 617, SD 625, SD 650/52, SD 820, and SD 820A, TOCTOU vulnerabilities may occur while sanitizing userspace values passed to tQSEE system call.
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10433
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9635M, MDM9640, MDM9645, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 820, and SD 820A, TOCTOU vulnerability during SSD image decryption may cause memory corruption.
+CWE-119
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10434
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 820 and SD 820A, the input to RPMB write response function is a buffer from HLOS that needs to be authenticated (using HMAC) and then processed. However, some of the processing occurs before the buffer is authenticated. The function will return various types of errors depending on the values of the `response` and `result` fields of the buffer before verifying the HMAC tag.
+CWE-287
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10435
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9625, MDM9635M, MDM9640, MDM9645, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 820, and SD 820A, in some QTEE syscall handlers, a TOCTOU vulnerability exists.
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10437
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Small Cell SoC, Snapdragon Mobile, and Snapdragon Wear FSM9055, MDM9206, MDM9607, MDM9635M, MDM9640, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 835, and SDX20, while logging debug statements or ftrace events from rmnet_data, the socket buffer function uses normal format specifiers which may result in information exposure.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10438
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Small Cell SoC, Snapdragon Mobile, and Snapdragon Wear FSM9055, IPQ4019, IPQ8064, MDM9206, MDM9607, MDM9635M, MDM9640, MDM9650, MSM8909W, QCA4531, QCA9980, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 835, and SDX20, information exposure vulnerability when logging debug statement due to %p usage.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10439
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, and SD 820A, there is a TOCTOU vulnerability in the input validation for bulletin_board_read syscall. A pointer dereference is being validated without promising the pointer hasn't been changed by the HLOS program.
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10443
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9635M, MDM9640, MDM9645, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, and SD 850, packet replay may be possible.
+CWE-254
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10444
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, SD 210/SD 212/SD 205, SD 425, SD 430, SD 450, SD 625, SD 820, SD 820A, and SD 835, SMMU Access Control Policy was updated to block HLOS from accessing BLSP and BAM resources.
+CWE-284
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10445
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 410/12, SD 425, SD 427, SD 430, SD 435, SD 450, SD 615/16/SD 415, SD 625, SD 820, SD 820A, SD 835, SD 845, SD 850, SDM630, SDM636, SDM660, and Snapdragon_High_Med_2016, input is not properly validated in a QTEE API function.
+CWE-20
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10446
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9650, SD 210/SD 212/SD 205, SD 820, SD 820A, and SD 835, incorrect configuration of the OCIMEM MPU may provide NonSecure Software access to OCIMEM memory used by TZ.
+CWE-16
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10452
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, and SD 835, memory protection assertion happens after invoking TA termination out of order.
+CWE-20
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10462
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 410/12, SD 425, SD 427, SD 430, SD 435, SD 450, SD 615/16/SD 415, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, SD 835, SDM630, SDM636, SDM660, and Snapdragon_High_Med_2016, the Access Control policy for HLOS allows access to Slimbus, GPU, GIC resources.
+CWE-284
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10467
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 615/16/SD 415, SD 617, SD 650/52, SD 800, SD 808, SD 820, and SD 820A, function ce_pkcs1_pss_padding_verify_auto_recover_saltlen assumes that the size of the encoded message is equal to the size of the RSA modulus. This assumption is true for most RSA keys, but it fails when modulus_bitlen % 8 == 1.
+CWE-320
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10469
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, and SD 850, incorrect implementation of RSA padding functions in CORE.
+CWE-20
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10471
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile SD 425, SD 430, SD 450, SD 625, SD 650/52, SD 820, and SD 820A, an unsigned RTIC health report susceptible to tampering by malware executing in the context of the HLOS may be requested.
+NVD-CWE-noinfo
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10474
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear IPQ4019, MDM9206, MDM9607, MDM9650, MSM8909W, SD 210/SD 212/SD 205, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, and SD 850, if the buffer length passed to the RIL interface is too large, the buffer size calculation may overflow, resulting in an undersize allocation for the buffer, and subsequently buffer overwrite.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10484
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear IPQ4019, MDM9206, MDM9607, MDM9625, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, SD 835, and SDX20, if a RPMB listener is registered with a very small buffer size, the calculation of the maximum transfer size for read and write operations may underflow, resulting in buffer overflow.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10486
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile MDM9640, MDM9645, SD 210/SD 212/SD 205, SD 450, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, and SD 820A, PD failure reason string from user PD is used directly in root PD, so if the buffer parameter is non-NULL terminated in Diag F3 APIs, a buffer overread occurs.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10487
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 425, SD 430, SD 450, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, SD 850, and SDX20, in a QuRT API function, an untrusted pointer dereference can occur.
+CWE-476
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10490
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9625, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 410/12, SD 425, SD 430, SD 450, SD 615/16/SD 415, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, SD 850, and SDX20, if a negative value is passed as argument "max" to qurt_qdi_state_local_new_handle_from_obj, an buffer overflow occurs, due to typecasting the signed integer to unsigned.
+CWE-189
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10493
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9635M, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 425, SD 430, SD 450, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, SD 850, and SDX20, NPA routines on the rootPD that handle resource requests remoted over QDI may not validate pointers passed from user space which may result in guest OS memory corruption.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10494
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile, Snapdragon Mobile, and Snapdragon Wear MDM9206, MDM9607, MDM9625, MDM9640, MDM9645, MDM9650, MDM9655, MSM8909W, SD 210/SD 212/SD 205, SD 400, SD 425, SD 430, SD 450, SD 617, SD 625, SD 650/52, SD 800, SD 808, SD 810, SD 820, SD 820A, SD 835, SD 845, SD 850, and SDX20, integer overflow may lead to buffer overflows in IPC router Root-PD driver.
+CWE-190
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-18T14:29Z
+
+CVE-2016-10519
+A security issue was found in bittorrent-dht before 5.1.3 that allows someone to send a specific series of messages to a listening peer and get it to reveal internal memory.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:webtorrent:bittorrent-dht:*:*:*:*:*:node.js:*:*
+foundational
+Published Date: 2018-05-31T20:29Z
+
+CVE-2016-10533
+express-restify-mongoose is a module to easily create a flexible REST interface for mongoose models. express-restify-mongoose 2.4.2 and earlier and 3.0.X through 3.0.1 allows a malicious user to send a request for `GET /User?distinct=password` and get all the passwords for all the users in the database, despite the field being set to private. This can be used for other private data if the malicious user knew what was set as private for specific routes.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:express-restify-mongoose_project:express-restify-mongoose:*:*:*:*:*:node.js:*:*
+foundational
+Published Date: 2018-05-31T20:29Z
+
+CVE-2016-10534
+electron-packager is a command line tool that packages Electron source code into `.app` and `.exe` packages. along with Electron. The `--strict-ssl` command line option in electron-packager >= 5.2.1 <= 6.0.0 || >=6.0.0 <= 6.0.2 defaults to false if not explicitly set to true. This could allow an attacker to perform a man in the middle attack.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:electron-packager_project:electron-packager:*:*:*:*:*:node.js:*:*
+Not Foundational
+Published Date: 2018-05-31T20:29Z
+
+CVE-2016-10536
+engine.io-client is the client for engine.io, the implementation of a transport-based cross-browser/cross-device bi-directional communication layer for Socket.IO. The vulnerability is related to the way that node.js handles the `rejectUnauthorized` setting. If the value is something that evaluates to false, certificate verification will be disabled. This is problematic as engine.io-client 1.6.8 and earlier passes in an object for settings that includes the rejectUnauthorized property, whether it has been set or not. If the value has not been explicitly changed, it will be passed in as `null`, resulting in certificate verification being turned off.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:socket:engine.io-client:*:*:*:*:*:node.js:*:*
+foundational
+Published Date: 2018-05-31T20:29Z
+
+CVE-2016-10538
+The package `node-cli` before 1.0.0 insecurely uses the lock_file and log_file. Both of these are temporary, but it allows the starting user to overwrite any file they have access to.
+CWE-362
+NETWORK
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-05-31T20:29Z
+
+CVE-2016-10641
+node-bsdiff-android downloads resources over HTTP, which leaves it vulnerable to MITM attacks.
+CWE-310
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:node-bsdiff-android_project:node-bsdiff-android:*:*:*:*:*:node.js:*:*
+foundational
+Published Date: 2018-06-04T16:29Z
+
+CVE-2016-10727
+camel/providers/imapx/camel-imapx-server.c in the IMAPx component in GNOME evolution-data-server before 3.21.2 proceeds with cleartext data containing a password if the client wishes to use STARTTLS but the server will not use STARTTLS, which makes it easier for remote attackers to obtain sensitive information by sniffing the network. The server code was intended to report an error and not proceed, but the code was written incorrectly.
+CWE-200
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:gnome:evolution:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-07-20T04:29Z
+
+CVE-2016-10740
+Various resources in Atlassian Crowd before version 2.10.1 allow remote attackers with administration rights to learn the passwords of configured LDAP directories by examining the responses to requests for these resources.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:atlassian:crowd:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-01-29T02:29Z
+
+CVE-2016-10741
+In the Linux kernel before 4.9.3, fs/xfs/xfs_aops.c allows local users to cause a denial of service (system crash) because there is a race condition between direct and memory-mapped I/O (associated with a hole) that is handled with BUG_ON instead of an I/O failure.
+CWE-362
+LOCAL
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-02-01T16:29Z
+
+CVE-2016-10785
+cPanel before 60.0.25 allows attackers to discover file contents during file copy operations (SEC-185).
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-06T13:15Z
+
+CVE-2016-10786
+cPanel before 60.0.25 allows members of the nobody group to read Apache HTTP Server SSL keys (SEC-186).
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-06T13:15Z
+
+CVE-2016-10790
+cPanel before 60.0.25 does not use TLS for HTTP POSTs to listinput.cpanel.net (SEC-192).
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-06T13:15Z
+
+CVE-2016-10794
+cPanel before 59.9999.145 allows arbitrary file-read operations because of a multipart form processing error (SEC-154).
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-06T14:15Z
+
+CVE-2016-10797
+cPanel before 58.0.4 allows WHM "Purchase and Install an SSL Certificate" page visitors to list all server domains (SEC-133).
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-08-06T14:15Z
+
+CVE-2016-10798
+cPanel before 58.0.4 allows a file-ownership change (to nobody) via rearrangeacct (SEC-134).
+CWE-362
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-08-07T13:15Z
+
+CVE-2016-10809
+In cPanel before 57.9999.54, /scripts/checkinfopages exposed a TTY to an unprivileged process (SEC-114).
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-07T13:15Z
+
+CVE-2016-10810
+In cPanel before 57.9999.54, /scripts/maildir_converter exposed a TTY to an unprivileged process (SEC-115).
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-07T13:15Z
+
+CVE-2016-10811
+In cPanel before 57.9999.54, /scripts/unsuspendacct exposed TTYs (SEC-116).
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-07T13:15Z
+
+CVE-2016-10815
+cPanel before 57.9999.54 allows arbitrary file-read operations for Webmail accounts via Branding APIs (SEC-120).
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-01T19:15Z
+
+CVE-2016-10844
+The chcpass script in cPanel before 11.54.0.4 reveals a password hash (SEC-77).
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-01T16:15Z
+
+CVE-2016-10906
+An issue was discovered in drivers/net/ethernet/arc/emac_main.c in the Linux kernel before 4.5. A use-after-free is caused by a race condition between the functions arc_emac_tx and arc_emac_tx_clean.
+CWE-362
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-19T02:15Z
+
+CVE-2016-10928
+The onelogin-saml-sso plugin before 2.2.0 for WordPress has a hardcoded @@@nopass@@@ password for just-in-time provisioned users.
+CWE-798
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:onelogin:onelogin_saml_sso:*:*:*:*:*:wordpress:*:*
+foundational
+Published Date: 2019-08-22T20:15Z
+
+CVE-2016-10931
+An issue was discovered in the openssl crate before 0.9.0 for Rust. There is an SSL/TLS man-in-the-middle vulnerability because certificate verification is off by default and there is no API for hostname verification.
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:rust-openssl_project:rust-openssl:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-08-26T12:15Z
+
+CVE-2016-10937
+IMAPFilter through 2.6.12 does not validate the hostname in an SSL certificate.
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:opensuse:backports_sle:15.0:sp1:*:*:*:*:*:*
+foundational
+Published Date: 2019-09-08T16:15Z
+
+CVE-2016-11025
+An issue was discovered on Samsung mobile devices with software through 2016-09-13 (Exynos AP chipsets). There is a memcpy heap-based buffer overflow in the OTP service. The Samsung ID is SVE-2016-7114 (December 2016).
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11026
+An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) software. BootReceiver allows attackers to trigger a system crash because of incorrect exception handling. The Samsung ID is SVE-2016-7118 (December 2016).
+CWE-755
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11027
+An issue was discovered on Samsung mobile devices with M(6.0) software. In the Shade Locked state, a physically proximate attacker can read notifications on the lock screen. The Samsung ID is SVE-2016-7132 (December 2016).
+CWE-200
+PHYSICAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:6.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11028
+An issue was discovered on Samsung mobile devices with software through 2016-09-13 (Exynos AP chipsets). There is a stack-based buffer overflow in the OTP TrustZone trustlet. The Samsung IDs are SVE-2016-7173 and SVE-2016-7174 (December 2016).
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11029
+An issue was discovered on Samsung mobile devices with L(5.0/5.1), M(6.0), and N(7.0) software. Attackers can read the password of the Mobile Hotspot in the log because of an unprotected intent. The Samsung ID is SVE-2016-7301 (December 2016).
+CWE-522
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11030
+An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) (with Hrm sensor support) software. The sysfs of the MAX86902 sensor driver does not prevent concurrent access, leading to a race condition and resultant heap-based buffer overflow. The Samsung ID is SVE-2016-7341 (December 2016).
+CWE-362
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11031
+An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) software. AntService allows a system_server crash and reboot. The Samsung ID is SVE-2016-7044 (November 2016).
+CWE-20
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11032
+An issue was discovered on Samsung mobile devices with M(6.0) software. An attacker can disable all Sound functionality by broadcasting an unprotected intent. The Samsung IDs are SVE-2016-7179 and SVE-2016-7182 (November 2016).
+CWE-20
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:6.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11033
+An issue was discovered on Samsung mobile devices with M(6.0) software. There is a heap-based buffer overflow in tlc_server. The Samsung IDs are SVE-2016-7220 and SVE-2016-7225 (November 2016).
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:6.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11034
+An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) software. The decode function in Qjpeg in Qt 5.7 allows attackers to trigger a system crash via a malformed image. The Samsung ID is SVE-2016-6560 (October 2016).
+CWE-755
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11035
+An issue was discovered on Samsung mobile devices with software through 2016-05-27 (Exynos AP chipsets). A local graphics user can cause a Kernel Crash via the fb0(DECON) frame buffer interface. The Samsung ID is SVE-2016-7011 (October 2016).
+CWE-119
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11036
+An issue was discovered on Samsung mobile devices with M(6.0) software. There is a Factory Reset Protection (FRP) bypass. The Samsung ID is SVE-2016-6008 (August 2016).
+CWE-862
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:6.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11038
+An issue was discovered on Samsung mobile devices with software through 2016-04-05 (incorporating the Samsung Professional Audio SDK). The Jack audio service doesn't implement access control for shared memory, leading to arbitrary code execution or privilege escalation. The Samsung ID is SVE-2016-5953 (July 2016).
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11039
+An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) (AP + CP MDM9x35, or Qualcomm Onechip) software. There is a NULL pointer dereference issue in the IPC socket code. The Samsung ID is SVE-2016-5980 (July 2016).
+CWE-476
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11040
+An issue was discovered on Samsung mobile devices with L(5.0/5.1) (with USB OTG MyFile2014_L_ESS support) software. There is a Factory Reset Protection (FRP) bypass. The Samsung ID is SVE-2015-5068 (June 2016).
+CWE-20
+PHYSICAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T14:15Z
+
+CVE-2016-11041
+An issue was discovered on Samsung mobile devices with KK(4.4) software. Attackers can bypass the lockscreen by sending an AT command over USB. The Samsung ID is SVE-2015-5301 (June 2016).
+CWE-287
+PHYSICAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:4.4:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11042
+An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) software. There is a SIM Lock bypass. The Samsung ID is SVE-2016-5381 (June 2016).
+CWE-287
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11043
+An issue was discovered on Samsung mobile devices with M(6.0) software. The S/MIME implementation in EAS uses DES (where 3DES is intended). The Samsung ID is SVE-2016-5871 (June 2016).
+CWE-326
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:6.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11044
+An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) (with Fingerprint support) software. The check of an application's signature can be bypassed during installation. The Samsung ID is SVE-2016-5923 (June 2016).
+CWE-347
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11045
+An issue was discovered on Samsung mobile devices with L(5.0/5.1) software. The Gallery library allow memory corruption via a malformed image. The Samsung ID is SVE-2016-5317 (May 2016).
+CWE-119
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11046
+An issue was discovered on Samsung mobile devices with JBP(4.3), KK(4.4), and L(5.0/5.1) software. Because of a misused whitelist, attackers can reach the radio layer (aka RIL or RILD) to place calls or send SMS messages. The Samsung ID is SVE-2016-5733 (May 2016).
+CWE-20
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11047
+An issue was discovered on Samsung mobile devices with JBP(4.2) and KK(4.4) (Marvell chipsets) software. The ACIPC-MSOCKET driver allows local privilege escalation via a stack-based buffer overflow. The Samsung ID is SVE-2016-5393 (April 2016).
+CWE-787
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:4.4:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11048
+An issue was discovered on Samsung mobile devices with L(5.0/5.1) (Spreadtrum or Marvell chipsets) software. There is a Factory Reset Protection (FRP) bypass. The Samsung ID is SVE-2016-5421 (March 2016).
+CWE-20
+PHYSICAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11049
+An issue was discovered on Samsung mobile devices with software through 2016-01-16 (Shannon333/308/310 chipsets). The IMEI may be retrieved and modified because of an error in managing key information. The Samsung ID is SVE-2016-5435 (March 2016).
+NVD-CWE-noinfo
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11050
+An issue was discovered on Samsung mobile devices with S3(KK), Note2(KK), S4(L), Note3(L), and S5(L) software. An attacker can rewrite the IMEI by flashing crafted firmware. The Samsung ID is SVE-2016-5562 (March 2016).
+NVD-CWE-noinfo
+PHYSICAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11052
+An issue was discovered on Samsung mobile devices with L(5.0/5.1) software. je_free in libQjpeg.so in Qjpeg in Qt 5.5 allows memory corruption via a malformed JPEG file. The Samsung ID is SVE-2015-5110 (January 2016).
+CWE-20
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11053
+An issue was discovered on Samsung mobile devices with software through 2015-11-11 (supporting FRP/RL). There is a Factory Reset Protection (FRP) bypass. The Samsung ID is SVE-2015-5131 (January 2016).
+CWE-20
+PHYSICAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-07T13:15Z
+
+CVE-2016-11059
+Certain NETGEAR devices are affected by password exposure. This affects AC1450 before 2017-01-06, C6300 before 2017-01-06, D500 before 2017-01-06, D1500 before 2017-01-06, D3600 before 2017-01-06, D6000 before 2017-01-06, D6100 before 2017-01-06, D6200 before 2017-01-06, D6200B before 2017-01-06, D6300B before 2017-01-06, D6300 before 2017-01-06, DGN1000v3 before 2017-01-06, DGN2200v1 before 2017-01-06, DGN2200v3 before 2017-01-06, DGN2200V4 before 2017-01-06, DGN2200Bv3 before 2017-01-06, DGN2200Bv4 before 2017-01-06, DGND3700v1 before 2017-01-06, DGND3700v2 before 2017-01-06, DGND3700Bv2 before 2017-01-06, JNR1010v1 before 2017-01-06, JNR1010v2 before 2017-01-06, JNR3300 before 2017-01-06, JR6100 before 2017-01-06, JR6150 before 2017-01-06, JWNR2000v5 before 2017-01-06, R2000 before 2017-01-06, R6050 before 2017-01-06, R6100 before 2017-01-06, R6200 before 2017-01-06, R6200v2 before 2017-01-06, R6220 before 2017-01-06, R6250 before 2017-01-06, R6300 before 2017-01-06, R6300v2 before 2017-01-06, R6700 before 2017-01-06, R7000 before 2017-01-06, R7900 before 2017-01-06, R7500 before 2017-01-06, R8000 before 2017-01-06, WGR614v10 before 2017-01-06, WNR1000v2 before 2017-01-06, WNR1000v3 before 2017-01-06, WNR1000v4 before 2017-01-06, WNR2000v3 before 2017-01-06, WNR2000v4 before 2017-01-06, WNR2000v5 before 2017-01-06, WNR2200 before 2017-01-06, WNR2500 before 2017-01-06, WNR3500Lv2 before 2017-01-06, WNDR3400v2 before 2017-01-06, WNDR3400v3 before 2017-01-06, WNDR3700v3 before 2017-01-06, WNDR3700v4 before 2017-01-06, WNDR3700v5 before 2017-01-06, WNDR4300 before 2017-01-06, WNDR4300v2 before 2017-01-06, WNDR4500v1 before 2017-01-06, WNDR4500v2 before 2017-01-06, and WNDR4500v3 before 2017-01-06.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-04-28T17:15Z
+
+CVE-2016-11066
+An issue was discovered in Mattermost Server before 3.2.0. The initial_load API disclosed unnecessary personal information.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-06-19T20:15Z
+
+CVE-2016-11075
+An issue was discovered in Mattermost Server before 3.0.0. It allows attackers to obtain sensitive information about team URLs via an API.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-06-19T20:15Z
+
+CVE-2016-11076
+An issue was discovered in Mattermost Server before 3.0.0. It does not ensure that a cookie is used over SSL.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-06-19T20:15Z
+
+CVE-2016-11078
+An issue was discovered in Mattermost Server before 3.0.0. It potentially allows attackers to obtain sensitive information (credential fields within config.json) via the System Console UI.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-06-19T20:15Z
+
+CVE-2016-11081
+An issue was discovered in Mattermost Server before 2.2.0. It allows unintended access to information stored by a web browser.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-06-19T20:15Z
+
+CVE-2016-11086
+lib/oauth/consumer.rb in the oauth-ruby gem through 0.5.4 for Ruby does not verify server X.509 certificates if a certificate bundle cannot be found, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information.
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:oauth-ruby_project:oauth-ruby:*:*:*:*:*:ruby:*:*
+foundational
+Published Date: 2020-09-24T20:15Z
+
+CVE-2016-1159
+In ZOHO Password Manager Pro (PMP) 8.3.0 (Build 8303) and 8.4.0 (Build 8400,8401,8402), underprivileged users can obtain sensitive information (entry password history) via a vulnerable hidden service.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:zohocorp:manageengine_password_manager_pro:8.4:build8402:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-03-09T17:15Z
+
+CVE-2016-1600
+The ServiceNow driver in NetIQ Identity Manager versions prior to 4.6 are susceptible to an information disclosure vulnerability.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:microfocus:identity_manager:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-05-09T21:29Z
+
+CVE-2016-20011
+libgrss through 0.7.0 fails to perform TLS certificate verification when downloading feeds, allowing remote attackers to manipulate the contents of feeds without detection. This occurs because of the default behavior of SoupSessionSync.
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:gnome:libgrss:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-05-25T21:15Z
+
+CVE-2016-2357
+Milesight IP security cameras through 2016-11-14 have a hardcoded SSL private key under the /etc/config directory.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2019-10-25T15:15Z
+
+CVE-2016-2358
+Milesight IP security cameras through 2016-11-14 have a default set of 10 privileged accounts with hardcoded credentials. They are accessible if the customer has not configured 10 actual user accounts.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2019-10-25T15:15Z
+
+CVE-2016-2360
+Milesight IP security cameras through 2016-11-14 have a default root password in /etc/shadow that is the same across different customers' installations.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2019-10-25T15:15Z
+
+CVE-2016-2922
+IBM Rational ClearQuest 8.0 through 8.0.1.9 and 9.0 through 9.0.1.3 (CQ OSLC linkages, EmailRelay) fails to check the SSL certificate against the requested hostname. It is subject to a man-in-the-middle attack with an impersonating server observing all the data transmitted to the real server. IBM X-Force ID: 113353.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ibm:rational_clearquest:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-08-13T16:29Z
+
+CVE-2016-3192
+Cloudera Manager 5.x before 5.7.1 places Sensitive Data in cleartext Readable Files.
+CWE-312
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cloudera:cloudera_manager:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-11-26T14:15Z
+
+CVE-2016-3953
+The sample web application in web2py before 2.14.2 might allow remote attackers to execute arbitrary code via vectors involving use of a hardcoded encryption key when calling the session.connect function.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:web2py:web2py:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-02-06T18:29Z
+
+CVE-2016-3954
+web2py before 2.14.2 allows remote attackers to obtain the session_cookie_key value via a direct request to examples/simple_examples/status.  NOTE: this issue can be leveraged by remote attackers to execute arbitrary code using CVE-2016-3957.
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:web2py:web2py:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-02-06T18:29Z
+
+CVE-2016-4643
+In iOS before 9.3.3, tvOS before 9.2.2, and OS X El Capitan before v10.11.6 and Security Update 2016-004, a validation issue existed in the parsing of 407 responses. This issue was addressed through improved response validation.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:apple:apple_tv:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-01-11T18:29Z
+
+CVE-2016-4644
+In iOS before 9.3.3, tvOS before 9.2.2, and OS X El Capitan before v10.11.6 and Security Update 2016-004, a downgrade issue existed with HTTP authentication credentials saved in Keychain. This issue was addressed by storing the authentication types with the credentials.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:apple:apple_tv:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-01-11T18:29Z
+
+CVE-2016-4676
+A Cross-origin vulnerability exists in WebKit in Apple Safari before 10.0.1 when processing location attributes, which could let a remote malicious user obtain sensitive information.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:apple:mac_os_x:10.12:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-02-03T18:15Z
+
+CVE-2016-5288
+Web content could access information in the HTTP cache if e10s is disabled. This can reveal some visited URLs and the contents of those pages. This issue affects Firefox 48 and 49. This vulnerability affects Firefox < 49.0.2.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-06-11T21:29Z
+
+CVE-2016-5346
+An Information Disclosure vulnerability exists in the Google Pixel/Pixel SL Qualcomm Avtimer Driver due to a NULL pointer dereference when processing an accept system call by the user process on AF_MSM_IPC sockets, which could let a local malicious user obtain sensitive information (Android Bug ID A-32551280).
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-01-08T19:15Z
+
+CVE-2016-5638
+There are few web pages associated with the genie app on the Netgear WNDR4500 running firmware version V1.0.1.40_1.0.6877. Genie app adds some capabilities over the Web GUI and can be accessed even when you are away from home. A remote attacker can access genie_ping.htm or genie_ping2.htm or genie_ping3.htm page without authentication. Once accessed, the page will be redirected to the aCongratulations2.htma page, which reveals some sensitive information such as 2.4GHz & 5GHz Wireless Network Name (SSID) and Network Key (Password) in clear text.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-07-24T15:29Z
+
+CVE-2016-5649
+A vulnerability is in the 'BSW_cxttongr.htm' page of the Netgear DGN2200, version DGN2200-V1.0.0.50_7.0.50, and DGND3700, version DGND3700-V1.0.0.17_1.0.17, which can allow a remote attacker to access this page without any authentication. When processed, it exposes the admin password in clear text before it gets redirected to absw_vfysucc.cgia. An attacker can use this password to gain administrator access to the targeted router's web interface.
+CWE-200
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-07-24T15:29Z
+
+CVE-2016-5724
+Cloudera CDH before 5.9 has Potentially Sensitive Information in Diagnostic Support Bundles.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:cloudera:cdh:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-11-26T14:15Z
+
+CVE-2016-6538
+The TrackR Bravo mobile app stores the account password used to authenticate to the cloud API in cleartext in the cache.db file. Updated apps, version 5.1.6 for iOS and 2.2.5 for Android, have been released by the vendor to address the vulnerabilities in CVE-2016-6538, CVE-2016-6539, CVE-2016-6540 and CVE-2016-6541.
+CWE-255
+ADJACENT_NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-07-06T21:29Z
+
+CVE-2016-6539
+The Trackr device ID is constructed of a manufacturer identifier of four zeroes followed by the BLE MAC address in reverse. The MAC address can be obtained by being in close proximity to the Bluetooth device, effectively exposing the device ID. The ID can be used to track devices. Updated apps, version 5.1.6 for iOS and 2.2.5 for Android, have been released by the vendor to address the vulnerabilities in CVE-2016-6538, CVE-2016-6539, CVE-2016-6540 and CVE-2016-6541.
+CWE-200
+ADJACENT_NETWORK
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-07-06T21:29Z
+
+CVE-2016-6540
+Unauthenticated access to the cloud-based service maintained by TrackR Bravo is allowed for querying or sending GPS data for any Trackr device by using the tracker ID number which can be discovered as described in CVE-2016-6539. Updated apps, version 5.1.6 for iOS and 2.2.5 for Android, have been released by the vendor to address the vulnerabilities in CVE-2016-6538, CVE-2016-6539, CVE-2016-6540 and CVE-2016-6541.
+CWE-200
+ADJACENT_NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-07-06T21:29Z
+
+CVE-2016-6546
+The iTrack Easy mobile application stores the account password used to authenticate to the cloud API in base64-encoding in the cache.db file. The base64 encoding format is considered equivalent to cleartext.
+CWE-255
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:kkmcn:itrackeasy:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-07-13T20:29Z
+
+CVE-2016-6547
+The Zizai Tech Nut mobile app stores the account password used to authenticate to the cloud API in cleartext in the cache.db file.
+CWE-255
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:nutspace:nut_mobile:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-07-13T20:29Z
+
+CVE-2016-6548
+The Zizai Tech Nut mobile app makes requests via HTTP instead of HTTPS. These requests contain the user's authenticated session token with the URL. An attacker can capture these requests and reuse the session token to gain full access the user's account.
+CWE-200
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:nutspace:nut_mobile:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-07-13T20:29Z
+
+CVE-2016-6562
+On iOS and Android devices, the ShoreTel Mobility Client app version 9.1.3.109 fails to properly validate SSL certificates provided by HTTPS connections, which means that an attacker in the position to perform MITM attacks may be able to obtain sensitive account information such as login credentials.
+CWE-295
+ADJACENT_NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:mitel:shortel_mobility_client:9.1.3.109:*:*:*:*:iphone_os:*:*
+Not Foundational
+Published Date: 2018-07-13T20:29Z
+
+CVE-2016-6587
+An Information Disclosure vulnerability exists in the mid.dat file stored on the SD card in Symantec Norton Mobile Security for Android before 3.16, which could let a local malicious user obtain sensitive information.
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:symantec:norton_mobile_security:*:*:*:*:*:android:*:*
+foundational
+Published Date: 2020-01-08T18:15Z
+
+CVE-2016-6658
+Applications in cf-release before 245 can be configured and pushed with a user-provided custom buildpack using a URL pointing to the buildpack. Although it is not recommended, a user can specify a credential in the URL (basic auth or OAuth) to access the buildpack through the CLI. For example, the user could include a GitHub username and password in the URL to access a private repo. Because the URL to access the buildpack is stored unencrypted, an operator with privileged access to the Cloud Controller database could view these credentials.
+CWE-200
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:pivotal_software:cloud_foundry_elastic_runtime:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-03-29T22:29Z
+
+CVE-2016-7047
+A flaw was found in the CloudForms API before 5.6.3.0, 5.7.3.1 and 5.8.1.2. A user with permissions to use the MiqReportResults capability within the API could potentially view data from other tenants or groups to which they should not have access.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:redhat:cloudforms_management_engine:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-09-11T13:29Z
+
+CVE-2016-7061
+An information disclosure vulnerability was found in JBoss Enterprise Application Platform before 7.0.4. It was discovered that when configuring RBAC and marking information as sensitive, users with a Monitor role are able to view the sensitive information.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-09-10T16:29Z
+
+CVE-2016-7077
+foreman before 1.14.0 is vulnerable to an information leak. It was found that Foreman form helper does not authorize options for associated objects. Unauthorized user can see names of such objects if their count is less than 6.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-09-10T15:29Z
+
+CVE-2016-7078
+foreman before version 1.15.0 is vulnerable to an information leak through organizations and locations feature. When a user is assigned _no_ organizations/locations, they are able to view all resources instead of none (mirroring an administrator's view). The user's actions are still limited by their assigned permissions, e.g. to control viewing, editing and deletion.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:theforeman:foreman:1.15.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-09-10T15:29Z
+
+CVE-2016-7404
+OpenStack Magnum passes OpenStack credentials into the Heat templates creating its instances. While these should just be used for retrieving the instances' SSL certificates, they allow full API access, though and can be used to perform any API operation the user is authorized to perform.
+CWE-200
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:openstack:magnum:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-06-21T14:15Z
+
+CVE-2016-8220
+Pivotal Gemfire for PCF, versions 1.6.x prior to 1.6.5.0 and 1.7.x prior to 1.7.1.0, contain an information disclosure vulnerability. The application inadvertently exposed WAN replication credentials at a public route.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:pivotal_software:gemfire:*:*:*:*:*:pivotal_cloud_foundry:*:*
+foundational
+Published Date: 2018-04-18T16:29Z
+
+CVE-2016-8485
+An information disclosure vulnerability in Qualcomm closed source components. Product: Android. Versions: Android kernel. Android ID: A-28823681.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-04T18:29Z
+
+CVE-2016-8486
+An information disclosure vulnerability in Qualcomm closed source components. Product: Android. Versions: Android kernel. Android ID: A-28823691.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-04T18:29Z
+
+CVE-2016-8514
+A remote information disclosure in HPE Version Control Repository Manager (VCRM) was found. The problem impacts all versions prior to 7.6.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hp:version_control_repository_manager:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-02-15T22:29Z
+
+CVE-2016-8525
+A Remote Disclosure of Information vulnerability in HPE iMC PLAT version v7.2 E0403P06 and earlier was found. The problem was resolved in iMC PLAT 7.3 E0504 or subsequent version.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hp:intelligent_management_center:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-02-15T22:29Z
+
+CVE-2016-8531
+A remote information disclosure vulnerability in HPE Matrix Operating Environment version 7.6 was found.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hp:matrix_operating_environment:7.6:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-02-15T22:29Z
+
+CVE-2016-8717
+An exploitable Use of Hard-coded Credentials vulnerability exists in the Moxa AWK-3131A Wireless Access Point running firmware 1.1. The device operating system contains an undocumented, privileged (root) account with hard-coded credentials, giving attackers full control of affected devices.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-04-02T17:29Z
+
+CVE-2016-9038
+An exploitable double fetch vulnerability exists in the SboxDrv.sys driver functionality of Invincea-X 6.1.3-24058. A specially crafted input buffer and race condition can result in kernel memory corruption, which could result in privilege escalation. An attacker needs to execute a special application locally to trigger this vulnerability.
+CWE-362
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:sophos:invincea-x:6.1.3-24058:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-24T19:29Z
+
+CVE-2016-9062
+Private browsing mode leaves metadata information, such as URLs, for sites visited in "browser.db" and "browser.db-wal" files within the Firefox profile after the mode is exited. Note: This issue only affects Firefox for Android. Other versions and operating systems are unaffected. This vulnerability affects Firefox < 50.
+CWE-200
+LOCAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-06-11T21:29Z
+
+CVE-2016-9064
+Add-on updates failed to verify that the add-on ID inside the signed package matched the ID of the add-on being updated. An attacker who could perform a man-in-the-middle attack on the user's connection to the update server and defeat the certificate pinning protection could provide a malicious signed add-on instead of a valid update. This vulnerability affects Firefox ESR < 45.5 and Firefox < 50.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:mozilla:firefox_esr:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-06-11T21:29Z
+
+CVE-2016-9074
+An existing mitigation of timing side-channel attacks is insufficient in some circumstances. This issue is addressed in Network Security Services (NSS) 3.26.1. This vulnerability affects Thunderbird < 45.5, Firefox ESR < 45.5, and Firefox < 50.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-06-11T21:29Z
+
+CVE-2016-9077
+Canvas allows the use of the "feDisplacementMap" filter on images loaded cross-origin. The rendering by the filter is variable depending on the input pixel, allowing for timing attacks when the images are loaded from third party locations. This vulnerability affects Firefox < 50.
+CWE-362
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-06-11T21:29Z
+
+CVE-2016-9335
+A hard-coded cryptographic key vulnerability was identified in Red Lion Controls Sixnet-Managed Industrial Switches running firmware Version 5.0.196 and Stride-Managed Ethernet Switches running firmware Version 5.0.190. Vulnerable versions of Stride-Managed Ethernet switches and Sixnet-Managed Industrial switches use hard-coded HTTP SSL/SSH keys for secure communication. Because these keys cannot be regenerated by users, all products use the same key. The attacker could disrupt communication or compromise the system. CVSS v3 base score: 10, CVSS vector string: (AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). Red Lion Controls recommends updating to SLX firmware Version 5.3.174.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-05-09T13:29Z
+
+CVE-2016-9491
+ManageEngine Applications Manager 12 and 13 before build 13690 allows an authenticated user, who is able to access /register.do page (most likely limited to administrator), to browse the filesystem and read the system files, including Applications Manager configuration, stored private keys, etc. By default Application Manager is running with administrative privileges, therefore it is possible to access every directory on the underlying operating system.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:zohocorp:manageengine_applications_manager:12.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-07-13T20:29Z
+
+CVE-2016-9495
+Hughes high-performance broadband satellite modems, models HN7740S DW7000 HN7000S/SM, uses hard coded credentials. Access to the device's default telnet port (23) can be obtained through using one of a few default credentials shared among all devices.
+CWE-798
+ADJACENT_NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-07-13T20:29Z
+
+CVE-2016-9499
+Accellion FTP server prior to version FTA_9_12_220 only returns the username in the server response if the username is invalid. An attacker may use this information to determine valid user accounts and enumerate them.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:accellion:ftp_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-07-13T20:29Z
+
+CVE-2016-9590
+puppet-swift before versions 8.2.1, 9.4.4 is vulnerable to an information-disclosure in Red Hat OpenStack Platform director's installation of Object Storage (swift). During installation, the Puppet script responsible for deploying the service incorrectly removes and recreates the proxy-server.conf file with world-readable permissions.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:redhat:openstack:8:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-04-26T17:29Z
+
+CVE-2016-9711
+IBM Predictive Solutions Foundation (IBM Cognos Analytics 11.0) reveals sensitive information in detailed error messages that could aid an attacker in further attacks against the system. IBM X-Force ID: 119619.
+CWE-200
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ibm:cognos_analytics:11.0.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2018-03-22T12:29Z
+
+CVE-2016-9904
+An attacker could use a JavaScript Map/Set timing attack to determine whether an atom is used by another compartment/zone in specific contexts. This could be used to leak information, such as usernames embedded in JavaScript code, across websites. This vulnerability affects Firefox < 50.1, Firefox ESR < 45.6, and Thunderbird < 45.6.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:mozilla:firefox_esr:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-06-11T21:29Z
+
+CVE-2016-9952
+The verify_certificate function in lib/vtls/schannel.c in libcurl 7.30.0 through 7.51.0, when built for Windows CE using the schannel TLS backend, makes it easier for remote attackers to conduct man-in-the-middle attacks via a crafted wildcard SAN in a server certificate, as demonstrated by "*.com."
+CWE-295
+NETWORK
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2018-03-12T21:29Z
+

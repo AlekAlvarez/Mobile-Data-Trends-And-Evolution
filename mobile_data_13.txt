@@ -1,0 +1,1259 @@
+CVE-2013-0159
+The fedora-business-cards package before 1-0.1.beta1.fc17 on Fedora 17 and before 1-0.1.beta1.fc18 on Fedora 18 allows local users to cause a denial of service or write to arbitrary files via a symlink attack on /tmp/fedora-business-cards-buffer.svg.
+CWE-59
+
+
+CVE-2013-0161
+Havalite CMS 1.1.7 has a stored XSS vulnerability
+CWE-79
+
+
+CVE-2013-0186
+Multiple cross-site scripting (XSS) vulnerabilities in ManageIQ EVM allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+CWE-79
+
+
+CVE-2013-0193
+Cross-site Scripting (XSS) in Piwik before 1.10.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors. NOTE: This is a different vulnerability than CVE-2013-0194 and CVE-2013-0195.
+CWE-79
+
+
+CVE-2013-0194
+Cross-site Scripting (XSS) in Piwik before 1.10.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors. NOTE: This is a different vulnerability than CVE-2013-0193 and CVE-2013-0195.
+CWE-79
+
+
+CVE-2013-0195
+Cross-site Scripting (XSS) in Piwik before 1.10.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors. NOTE: This is a different vulnerability than CVE-2013-0193 and CVE-2013-0194.
+CWE-79
+
+
+CVE-2013-0202
+Cross-site scripting (XSS) vulnerability in ownCloud 4.5.5, 4.0.10, and earlier allows remote attackers to inject arbitrary web script or HTML via the action parameter to core/ajax/sharing.php.
+CWE-79
+
+
+CVE-2013-0203
+Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 4.5.5, 4.0.10, and earlier allow remote attackers to inject arbitrary web script or HTML via the (1) unspecified parameters to apps/calendar/ajax/event/new.php or (2) url parameter to apps/bookmarks/ajax/addBookmark.php.
+CWE-79
+
+
+CVE-2013-0264
+An import error was introduced in Cumin in the code refactoring in r5310. Server certificate validation is always disabled when connecting to Aviary servers, even if the installed packages on a system support it.
+CWE-295
+
+
+CVE-2013-0283
+Katello: Username in Notification page has cross site scripting
+CWE-79
+
+
+CVE-2013-0286
+Pinboard 1.0.6 theme for Wordpress has XSS.
+CWE-79
+
+
+CVE-2013-0517
+A Command Execution Vulnerability exists in IBM Sterling External Authentication Server 2.2.0, 2.3.01, 2.4.0, and 2.4.1 via an unspecified OS command, which could let a local malicious user execute arbitrary code.
+CWE-78
+
+
+CVE-2013-0592
+Cross-site scripting (XSS) vulnerability in IBM iNotes before 8.5.3 Fix Pack 6 and 9.x before 9.0.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors. IBM X-Force ID: 83815.
+CWE-79
+
+
+CVE-2013-0594
+Open redirect vulnerability in IBM iNotes before 8.5.3 Fix Pack 6 and 9.x before 9.0.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors. IBM X-Force ID: 83383.
+CWE-601
+
+
+CVE-2013-0725
+ERDAS ER Viewer 13.0 has dwmapi.dll and irml.dll libraries arbitrary code execution vulnerabilities
+CWE-427
+
+
+CVE-2013-0737
+Cross-site scripting (XSS) vulnerability in BoltWire 3.5 and earlier allows remote attackers to inject arbitrary web script or HTML via the fieldnames parameter.
+CWE-79
+
+
+CVE-2013-0738
+Chamilo 1.9.4 has Multiple XSS and HTML Injection Vulnerabilities: blog.php and announcements.php.
+CWE-79
+
+
+CVE-2013-0739
+Chamilo 1.9.4 has XSS due to improper validation of user-supplied input by the chat.php script.
+CWE-79
+
+
+CVE-2013-0803
+A PHP File Upload Vulnerability exists in PolarBear CMS 2.5 via upload.php, which could let a malicious user execute arbitrary code.
+CWE-434
+
+
+CVE-2013-10001
+A vulnerability was found in HTC One/Sense 4.x. It has been rated as problematic. Affected by this issue is the certification validation of the mail client. An exploit has been disclosed to the public and may be used.
+CWE-295
+
+
+CVE-2013-10002
+A vulnerability was found in Telecommunication Software SAMwin Contact Center Suite 5.1. It has been rated as critical. Affected by this issue is the function getCurrentDBVersion in the library SAMwinLIBVB.dll of the credential handler. Authentication is possible with hard-coded credentials. Upgrading to version 6.2 is able to address this issue. It is recommended to upgrade the affected component.
+CWE-798
+
+
+CVE-2013-10003
+A vulnerability classified as critical has been found in Telecommunication Software SAMwin Contact Center Suite 5.1. This affects the function getCurrentDBVersion in the library SAMwinLIBVB.dll of the database handler. The manipulation leads to sql injection. The exploit has been disclosed to the public and may be used. Upgrading to version 6.2 is able to address this issue. It is recommended to upgrade the affected component.
+CWE-89
+
+
+CVE-2013-10004
+A vulnerability classified as critical was found in Telecommunication Software SAMwin Contact Center Suite 5.1. This vulnerability affects the function passwordScramble in the library SAMwinLIBVB.dll of the component Password Handler. Incorrect implementation of a hashing function leads to predictable authentication possibilities. Upgrading to version 6.2 is able to address this issue. It is recommended to upgrade the affected component.
+CWE-307
+
+
+CVE-2013-10005
+The RemoteAddr and LocalAddr methods on the returned net.Conn may call themselves, leading to an infinite loop which will crash the program due to a stack overflow.
+CWE-835
+
+
+CVE-2013-10018
+A vulnerability was found in fanzila WebFinance 0.5. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file htdocs/prospection/save_contact.php. The manipulation of the argument nom/prenom/email/tel/mobile/client/fonction/note leads to sql injection. The identifier of the patch is 165dfcaa0520ee0179b7c1282efb84f5a03df114. It is recommended to apply a patch to fix this issue. The identifier VDB-220057 was assigned to this vulnerability.
+
+
+CVE-2013-1351
+Verax NMS prior to 2.10 allows authentication via the encrypted password without knowing the cleartext password.
+CWE-294
+
+
+CVE-2013-1352
+Verax NMS prior to 2.1.0 uses an encryption key that is hardcoded in a JAR archive.
+CWE-798
+
+
+CVE-2013-1353
+Orange HRM 2.7.1 allows XSS via the vacancy name.
+CWE-79
+
+
+CVE-2013-1400
+Multiple SQL injection vulnerabilities in CWPPoll.js in WordPress Poll Plugin 34.5 for WordPress allow attackers to execute arbitrary SQL commands via the pollid or poll_id parameter in a viewPollResults or userlogs action.
+CWE-89
+
+
+CVE-2013-1401
+Multiple security bypass vulnerabilities in the editAnswer, deleteAnswer, addAnswer, and deletePoll functions in WordPress Poll Plugin 34.5 for WordPress allow a remote attacker to add, edit, and delete an answer and delete a poll.
+CWE-89
+
+
+CVE-2013-1410
+Perforce P4web 2011.1 and 2012.1 has multiple XSS vulnerabilities
+CWE-79
+
+
+CVE-2013-1420
+Multiple cross-site scripting (XSS) vulnerabilities in GetSimple CMS before 3.2.1 allow remote attackers to inject arbitrary web script or HTML via the (1) id parameter to backup-edit.php; (2) title or (3) menu parameter to edit.php; or (4) path or (5) returnid parameter to filebrowser.php in admin/. NOTE: the path parameter in admin/upload.php vector is already covered by CVE-2012-6621.
+CWE-79
+
+
+CVE-2013-1425
+ldap-git-backup before 1.0.4 exposes password hashes due to incorrect directory permissions.
+CWE-276
+
+
+CVE-2013-1426
+Cross-site Scripting (XSS) in Mahara before 1.5.9 and 1.6.x before 1.6.4 allows remote attackers to inject arbitrary web script or HTML via the TinyMCE editor.
+CWE-79
+
+
+CVE-2013-1429
+Lintian before 2.5.12 allows remote attackers to gather information about the "host" system using crafted symlinks.
+CWE-59
+
+
+CVE-2013-1592
+A Buffer Overflow vulnerability exists in the Message Server service _MsJ2EE_AddStatistics() function when sending specially crafted SAP Message Server packets to remote TCP ports 36NN and/or 39NN in SAP NetWeaver 2004s, 7.01 SR1, 7.02 SP06, and 7.30 SP04, which could let a remote malicious user execute arbitrary code.
+CWE-120
+
+
+CVE-2013-1595
+A Buffer Overflow vulnerability exists in Vivotek PT7135 IP Camera 0300a and 0400a via a specially crafted packet in the Authorization header field sent to the RTSP service, which could let a remote malicious user execute arbitrary code or cause a Denial of Service.
+CWE-120
+
+
+CVE-2013-1597
+A Directory Traversal vulnerability exists in Vivotek PT7135 IP Cameras 0300a and 0400a via a specially crafted GET request, which could let a malicious user obtain user credentials.
+CWE-22
+
+
+CVE-2013-1598
+A Command Injection vulnerability exists in Vivotek PT7135 IP Cameras 0300a and 0400a via the system.ntp parameter to the farseer.out binary file, which cold let a malicious user execute arbitrary code.
+CWE-78
+
+
+CVE-2013-1599
+A Command Injection vulnerability exists in the /var/www/cgi-bin/rtpd.cgi script in D-Link IP Cameras DCS-3411/3430 firmware 1.02, DCS-5605/5635 1.01, DCS-1100L/1130L 1.04, DCS-1100/1130 1.03, DCS-1100/1130 1.04_US, DCS-2102/2121 1.05_RU, DCS-3410 1.02, DCS-5230 1.02, DCS-5230L 1.02, DCS-6410 1.00, DCS-7410 1.00, DCS-7510 1.00, and WCS-1100 1.02, which could let a remote malicious user execute arbitrary commands through the camera’s web interface.
+CWE-78
+
+
+CVE-2013-1603
+An Authentication vulnerability exists in D-LINK WCS-1100 1.02, TESCO DCS-2121 1.05_TESCO, TESCO DCS-2102 1.05_TESCO, DCS-7510 1.00, DCS-7410 1.00, DCS-6410 1.00, DCS-5635 1.01, DCS-5605 1.01, DCS-5230L 1.02, DCS-5230 1.02, DCS-3430 1.02, DCS-3411 1.02, DCS-3410 1.02, DCS-2121 1.06_FR, DCS-2121 1.06, DCS-2121 1.05_RU, DCS-2102 1.06_FR, DCS-2102 1.06, DCS-2102 1.05_RU, DCS-1130L 1.04, DCS-1130 1.04_US, DCS-1130 1.03, DCS-1100L 1.04, DCS-1100 1.04_US, and DCS-1100 1.03 due to hard-coded credentials that serve as a backdoor, which allows remote attackers to access the RTSP video stream.
+CWE-798
+
+
+CVE-2013-1642
+Multiple cross-site scripting (XSS) vulnerabilities in QuiXplorer before 2.5.5 allow remote attackers to inject arbitrary web script or HTML via the (1) dir, (2) item, (3) order, (4) searchitem, (5) selitems[], or (6) srt parameter to index.php or (7) the QUERY_STRING to index.php.
+CWE-79
+
+
+CVE-2013-1666
+Foswiki before 1.1.8 contains a code injection vulnerability in the MAKETEXT macro.
+CWE-94
+
+
+CVE-2013-1760
+The Bug Genie before 3.2.6 has Multiple XSS and HTML Injection Vulnerabilities
+CWE-79
+
+
+CVE-2013-1793
+openstack-utils openstack-db has insecure password creation
+CWE-306
+
+
+CVE-2013-1809
+Gambas before 3.4.0 allows remote attackers to move or manipulate directory contents or perform symlink attacks due to the creation of insecure temporary directories.
+CWE-59
+
+
+CVE-2013-1866
+OpenSC OpenSC.tokend has an Arbitrary File Creation/Overwrite Vulnerability
+CWE-59
+
+
+CVE-2013-1867
+Gemalto Tokend 2013 has an Arbitrary File Creation/Overwrite Vulnerability
+CWE-59
+
+
+CVE-2013-1891
+In OpenCart 1.4.7 to 1.5.5.1, implemented anti-traversal code in filemanager.php is ineffective and can be bypassed.
+CWE-22
+
+
+CVE-2013-1895
+The py-bcrypt module before 0.3 for Python does not properly handle concurrent memory access, which allows attackers to bypass authentication via multiple authentication requests, which trigger the password hash to be overwritten.
+CWE-307
+
+
+CVE-2013-1916
+In WordPress Plugin User Photo 0.9.4, when a photo is uploaded, it is only partially validated and it is possible to upload a backdoor on the server hosting WordPress. This backdoor can be called (executed) even if the photo has not been yet approved.
+CWE-434
+
+
+CVE-2013-1931
+A cross-site scripting (XSS) vulnerability in MantisBT 1.2.14 allows remote attackers to inject arbitrary web script or HTML via a version, related to deleting a version.
+CWE-79
+
+
+CVE-2013-1932
+A cross-site scripting (XSS) vulnerability in the configuration report page (adm_config_report.php) in MantisBT 1.2.13 allows remote authenticated users to inject arbitrary web script or HTML via a project name.
+CWE-79
+
+
+CVE-2013-1934
+A cross-site scripting (XSS) vulnerability in the configuration report page (adm_config_report.php) in MantisBT 1.2.0rc1 before 1.2.14 allows remote authenticated users to inject arbitrary web script or HTML via a complex value.
+CWE-79
+
+
+CVE-2013-1938
+Zimbra 2013 has XSS in aspell.php
+CWE-79
+
+
+CVE-2013-1945
+ruby193 uses an insecure LD_LIBRARY_PATH setting.
+CWE-829
+
+
+CVE-2013-1951
+A cross-site scripting (XSS) vulnerability in MediaWiki before 1.19.5 and 1.20.x before 1.20.4 and allows remote attackers to inject arbitrary web script or HTML via Lua function names.
+CWE-79
+
+
+CVE-2013-20002
+Elemin allows remote attackers to upload and execute arbitrary PHP code via the Themify framework (before 1.2.2) wp-content/themes/elemin/themify/themify-ajax.php file.
+CWE-434
+
+
+CVE-2013-20003
+Z-Wave devices from Sierra Designs (circa 2013) and Silicon Labs (using S0 security) may use a known, shared network key of all zeros, allowing an attacker within radio range to spoof Z-Wave traffic.
+CWE-338
+
+
+CVE-2013-2008
+WordPress Super Cache Plugin 1.3 has XSS.
+CWE-79
+
+
+CVE-2013-2018
+Multiple SQL injection vulnerabilities in BOINC allow remote attackers to execute arbitrary SQL commands via unspecified vectors.
+CWE-89
+
+
+CVE-2013-2024
+OS command injection vulnerability in the "qs" procedure from the "utils" module in Chicken before 4.9.0.
+CWE-78
+
+
+CVE-2013-2057
+YaBB through 2.5.2: 'guestlanguage' Cookie Parameter Local File Include Vulnerability
+CWE-434
+
+
+CVE-2013-2060
+The download_from_url function in OpenShift Origin allows remote attackers to execute arbitrary commands via shell metacharacters in the URL of a request to download a cart.
+CWE-78
+
+
+CVE-2013-2075
+Multiple buffer overflows in the (1) R5RS char-ready, (2) tcp-accept-ready, and (3) file-select procedures in Chicken through 4.8.0.3 allows attackers to cause a denial of service (crash) by opening a file descriptor with a large integer value. NOTE: this issue exists because of an incomplete fix for CVE-2012-6122.
+CWE-120
+
+
+CVE-2013-2091
+SQL injection vulnerability in Dolibarr ERP/CRM 3.3.1 allows remote attackers to execute arbitrary SQL commands via the 'pays' parameter in fiche.php.
+CWE-89
+
+
+CVE-2013-2092
+Cross-site Scripting (XSS) in Dolibarr ERP/CRM 3.3.1 allows remote attackers to inject arbitrary web script or HTML in functions.lib.php.
+CWE-79
+
+
+CVE-2013-2101
+Katello has multiple XSS issues in various entities
+CWE-79
+
+
+CVE-2013-2228
+SaltStack RSA Key Generation allows remote users to decrypt communications
+CWE-307
+
+
+CVE-2013-2255
+HTTPSConnections in OpenStack Keystone 2013, OpenStack Compute 2013.1, and possibly other OpenStack components, fail to validate server-side SSL certificates.
+CWE-295
+
+
+CVE-2013-2257
+Cryptocat before 2.0.42 has Group Chat ECC Private Key Generation Brute Force Weakness
+CWE-307
+
+
+CVE-2013-2260
+Cryptocat before 2.0.22: Cryptocat.random() Function Array Key has Entropy Weakness
+CWE-331
+
+
+CVE-2013-2267
+PHP Code Injection vulnerability in FUDforum Bulletin Board Software 3.0.4 could allow remote attackers to execute arbitrary code on the system.
+CWE-94
+
+
+CVE-2013-2294
+Multiple cross-site scripting (XSS) vulnerabilities in ViewGit before 0.0.7 allow remote repository users to inject arbitrary web script or HTML via a (1) tag name to the Shortlog table in templates/shortlog.php or branch name to the (2) Shortlog table in templates/shortlog.php or (3) Heads table in plates/summary.php.
+CWE-79
+
+
+CVE-2013-2474
+Directory traversal vulnerability in AWS XMS 2.5 allows remote attackers to view arbitrary files via the 'what' parameter.
+CWE-22
+
+
+CVE-2013-2512
+The ftpd gem 0.2.1 for Ruby allows remote attackers to execute arbitrary OS commands via shell metacharacters in a LIST or NLST command argument within FTP protocol traffic.
+CWE-78
+
+
+CVE-2013-2565
+A vulnerability in Mambo CMS v4.6.5 where the scripts thumbs.php, editorFrame.php, editor.php, images.php, manager.php discloses the root path of the webserver.
+CWE-22
+
+
+CVE-2013-2567
+An Authentication Bypass vulnerability exists in the web interface in Zavio IP Cameras through 1.6.03 due to a hardcoded admin account found in boa.conf, which lets a remote malicious user obtain sensitive information.
+CWE-798
+
+
+CVE-2013-2568
+A Command Injection vulnerability exists in Zavio IP Cameras through 1.6.3 via the ap parameter to /cgi-bin/mft/wireless_mft.cgi, which could let a remote malicious user execute arbitrary code.
+CWE-78
+
+
+CVE-2013-2570
+A Command Injection vulnerability exists in Zavio IP Cameras through 1.6.3 in the General.Time.NTP.Server parameter to the sub_C8C8 function of the binary /opt/cgi/view/param, which could let a remove malicious user execute arbitrary code.
+CWE-78
+
+
+CVE-2013-2572
+A Security Bypass vulnerability exists in TP-LINK IP Cameras TL-SC 3130, TL-SC 3130G, 3171G, 4171G, and 3130 1.6.18P12 due to default hard-coded credentials for the administrative Web interface, which could let a malicious user obtain unauthorized access to CGI files.
+CWE-798
+
+
+CVE-2013-2573
+A Command Injection vulnerability exists in the ap parameter to the /cgi-bin/mft/wireless_mft.cgi file in TP-Link IP Cameras TL-SC 3130, TL-SC 3130G, 3171G. and 4171G 1.6.18P12s, which could let a malicious user execute arbitrary code.
+CWE-78
+
+
+CVE-2013-2612
+Command-injection vulnerability in Huawei E587 3G Mobile Hotspot 11.203.27 allows remote attackers to execute arbitrary shell commands with root privileges due to an error in the Web UI.
+CWE-78
+
+
+CVE-2013-2621
+Open Redirection Vulnerability in the redir.php script in Telaen before 1.3.1 allows remote attackers to redirect victims to arbitrary websites via a crafted URL.
+CWE-601
+
+
+CVE-2013-2622
+Cross-site Scripting (XSS) in UebiMiau 2.7.11 and earlier allows remote attackers to inject arbitrary web script or HTML via the "selected_theme" parameter in error.php.
+CWE-79
+
+
+CVE-2013-2623
+Cross-site Scripting (XSS) in Telaen before 1.3.1 allows remote attackers to inject arbitrary web script or HTML via the "f_email" parameter in index.php.
+CWE-79
+
+
+CVE-2013-2637
+A Cross-Site Scripting (XSS) Vulnerability exists in OTRS ITSM prior to 3.2.4, 3.1.8, and 3.0.7 and FAQ prior to 2.1.4 and 2.0.8 via changes, workorder items, and FAQ articles, which could let a remote malicious user execute arbitrary code.
+CWE-79
+
+
+CVE-2013-2675
+Brother MFC-9970CDW 1.10 devices with Firmware L contain a Frameable response (Clickjacking) vulnerability which could allow remote attackers to obtain sensitive information.
+CWE-1021
+
+
+CVE-2013-2679
+Multiple cross-site scripting (XSS) vulnerabilities in Cisco Linksys E4200 router with firmware 1.0.05 build 7 allow remote attackers to inject arbitrary web script or HTML via the (1) log_type, (2) ping_ip, (3) ping_size, (4) submit_type, or (5) traceroute_ip parameter to apply.cgi or (6) new_workgroup or (7) submit_button parameter to storage/apply.cgi.
+CWE-79
+
+
+CVE-2013-2680
+Cisco Linksys E4200 1.0.05 Build 7 devices store passwords in cleartext allowing remote attackers to obtain sensitive information.
+CWE-312
+
+
+CVE-2013-2682
+Cisco Linksys E4200 1.0.05 Build 7 devices contain a Clickjacking Vulnerability which allows remote attackers to obtain sensitive information.
+CWE-1021
+
+
+CVE-2013-2684
+Cross-site Scripting (XSS) in Cisco Linksys E4200 1.0.05 Build 7 devices allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+CWE-79
+
+
+CVE-2013-2714
+Cross-site Scripting (XSS) in WordPress podPress Plugin 8.8.10.13 could allow remote attackers to inject arbitrary web script or html via the 'playerID' parameter.
+CWE-79
+
+
+CVE-2013-2738
+minidlna has SQL Injection that may allow retrieval of arbitrary files
+CWE-89
+
+
+CVE-2013-2745
+An SQL Injection vulnerability exists in MiniDLNA prior to 1.1.0
+CWE-89
+
+
+CVE-2013-2748
+Belkin Wemo Switch before WeMo_US_2.00.2176.PVT could allow remote attackers to upload arbitrary files onto the system.
+CWE-434
+
+
+CVE-2013-2764
+Secure Entry Server before 4.7.0 contains a URI Redirection vulnerability which could allow remote attackers to conduct phishing attacks due to HSP_AbsoluteRedirects being disabled by default.
+CWE-601
+
+
+CVE-2013-2773
+Nitro PDF 8.5.0.26: A specially crafted DLL file can facilitate Arbitrary Code Execution
+CWE-426
+
+
+CVE-2013-2805
+Rockwell Automation RSLinx Enterprise Software (LogReceiver.exe) CPR9, CPR9-SR1, CPR9-SR2, CPR9-SR3, CPR9-SR4, CPR9-SR5, CPR9-SR5.1, and CPR9-SR6 does not handle input correctly and results in a logic error if it receives a datagram with an incorrect value in the “Record Data Size” field. By sending a datagram to the service over Port 4444/UDP with the “Record Data Size” field modified to an oversized value, an attacker could cause an out-of-bounds read access violation that leads to a service crash. The service can be recovered with a manual reboot. The patches and details pertaining to this vulnerability can be found at the following Rockwell Automation Security Advisory link (login is required): https://rockwellautomation.custhelp.com/app/answers/detail/a_id/537599
+CWE-125
+
+
+CVE-2013-2806
+Rockwell Automation RSLinx Enterprise Software (LogReceiver.exe) CPR9, CPR9-SR1, CPR9-SR2, CPR9-SR3, CPR9-SR4, CPR9-SR5, CPR9-SR5.1, and CPR9-SR6 does not handle input correctly and results in a logic error if it calculates an incorrect value for the “End of Current Record” field. By sending a datagram to the service over Port 4444/UDP with the “Record Data Size” field modified to a specifically oversized value, the service will calculate an undersized value for the “Total Record Size.” Then the service will calculate an incorrect value for the “End of Current Record” field causing access violations that lead to a service crash. The service can be recovered with a manual reboot. The patches and details pertaining to these vulnerabilities can be found at the following Rockwell Automation security advisory link (login is required): https://rockwellautomation.custhelp.com/app/answers/detail/a_id/537599
+CWE-190
+
+
+CVE-2013-2807
+Rockwell Automation RSLinx Enterprise Software (LogReceiver.exe) CPR9, CPR9-SR1, CPR9-SR2, CPR9-SR3, CPR9-SR4, CPR9-SR5, CPR9-SR5.1, and CPR9-SR6 does not handle input correctly and results in a logic error if it calculates an incorrect value for the “Total Record Size” field. By sending a datagram to the service over Port 4444/UDP with the “Record Data Size” field modified to a specifically oversized value, the service will calculate an undersized value for the “Total Record Size” that will cause an out-of-bounds read access violation that leads to a service crash. The service can be recovered with a manual reboot. The patches and details pertaining to these vulnerabilities can be found at the following Rockwell Automation Security Advisory link (login is required): https://rockwellautomation.custhelp.com/app/answers/detail/a_id/537599
+CWE-125
+
+
+CVE-2013-2999
+Cross-site scripting (XSS) vulnerability in IBM InfoSphere Data Replication Dashboard 9.7 and 10.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors. IBM X-Force ID: 84115.
+CWE-79
+
+
+CVE-2013-3000
+SQL injection vulnerability in IBM InfoSphere Data Replication Dashboard 9.7 and 10.1 allows remote attackers to execute arbitrary SQL commands via unspecified vectors. IBM X-Force ID: 84116.
+CWE-89
+
+
+CVE-2013-3001
+Directory traversal vulnerability in IBM InfoSphere Data Replication Dashboard 9.7 and 10.1 allows remote attackers to read arbitrary files via unspecified vectors. IBM X-Force ID: 84127.
+CWE-22
+
+
+CVE-2013-3067
+Linksys WRT310Nv2 2.0.0.1 is vulnerable to XSS.
+CWE-79
+
+
+CVE-2013-3073
+A Symlink Traversal vulnerability exists in NETGEAR Centria WNDR4700 Firmware 1.0.0.34.
+CWE-22
+
+
+CVE-2013-3097
+Unspecified Cross-site scripting (XSS) vulnerability in the Verizon FIOS Actiontec MI424WR-GEN3I router.
+CWE-79
+
+
+CVE-2013-3246
+Stack-based buffer overflow in xnview.exe in XnView before 2.03 allows remote attackers to execute arbitrary code via a crafted image layer in an XCF file.
+CWE-787
+
+
+CVE-2013-3247
+Heap-based buffer overflow in xnview.exe in XnView before 2.03 allows remote attackers to execute arbitrary code via a crafted RLE compressed layer in an XCF file.
+CWE-787
+
+
+CVE-2013-3311
+Directory traversal vulnerability in the Loftek Nexus 543 IP Camera allows remote attackers to read arbitrary files via a .. (dot dot) in the URL of an HTTP GET request.
+CWE-22
+
+
+CVE-2013-3320
+Cross-site Scripting (XSS) vulnerability in NetApp OnCommand System Manager before 2.2 allows remote attackers to inject arbitrary web script or HTML via the 'full-name' and 'comment' fields.
+CWE-79
+
+
+CVE-2013-3321
+NetApp OnCommand System Manager 2.1 and earlier allows remote attackers to include arbitrary files through specially crafted requests to the "diagnostic" page using the SnapMirror log path parameter.
+CWE-829
+
+
+CVE-2013-3322
+NetApp OnCommand System Manager 2.1 and earlier allows remote attackers to inject arbitrary commands in the Halt/Reboot interface.
+CWE-78
+
+
+CVE-2013-3486
+IrfanView FlashPix Plugin 4.3.4 0 has an Integer Overflow Vulnerability
+CWE-190
+
+
+CVE-2013-3488
+Stack-based buffer overflow in Media Player Classic - Home Cinema (MPC-HC) before 1.7.0.7858 allows remote attackers to execute arbitrary code via a crafted MPEG-2 Transport Stream (M2TS) file.
+CWE-120
+
+
+CVE-2013-3489
+Buffer overflow in Media Player Classic - Home Cinema (MPC-HC) before 1.7.0 allows remote attackers to execute arbitrary code via a crafted RealMedia .rm file
+CWE-120
+
+
+CVE-2013-3492
+XnView 2.03 has a stack-based buffer overflow vulnerability
+CWE-787
+
+
+CVE-2013-3493
+XnView 2.03 has an integer overflow vulnerability
+CWE-190
+
+
+CVE-2013-3494
+A Code Execution Vulnerability exists in UMPlayer 0.98 in wintab32.dll due to insufficient path restrictions when loading external libraries. which could let a malicious user execute arbitrary code.
+CWE-426
+
+
+CVE-2013-3517
+Cross-site scripting (XSS) vulnerability in NETGEAR WNR3500U and WNR3500L.
+CWE-79
+
+
+CVE-2013-3542
+Grandstream GXV3501, GXV3504, GXV3601, GXV3601HD/LL, GXV3611HD/LL, GXV3615W/P, GXV3651FHD, GXV3662HD, GXV3615WP_HD, GXV3500, and possibly other camera models with firmware 1.0.4.11, have a hardcoded account "!#/" with the same password, which makes it easier for remote attackers to obtain access via a TELNET session.
+CWE-798
+
+
+CVE-2013-3565
+Multiple cross-site scripting (XSS) vulnerabilities in the HTTP Interface in VideoLAN VLC Media Player before 2.0.7 allow remote attackers to inject arbitrary web script or HTML via the (1) command parameter to requests/vlm_cmd.xml, (2) dir parameter to requests/browse.xml, or (3) URI in a request, which is returned in an error message through share/lua/intf/http.lua.
+CWE-79
+
+
+CVE-2013-3591
+vTiger CRM 5.3 and 5.4: 'files' Upload Folder Arbitrary PHP Code Execution Vulnerability
+CWE-434
+
+
+CVE-2013-3619
+Intelligent Platform Management Interface (IPMI) with firmware for Supermicro X9 generation motherboards before SMT_X9_317 and firmware for Supermicro X8 generation motherboards before SMT X8 312 contain harcoded private encryption keys for the (1) Lighttpd web server SSL interface and the (2) Dropbear SSH daemon.
+CWE-798
+
+
+CVE-2013-3635
+ProjectPier 0.8.8 has stored XSS
+CWE-79
+
+
+CVE-2013-3636
+ProjectPier 0.8.8 has a Remote Information Disclosure Weakness because of the lack of the HttpOnly cookie flag
+CWE-79
+
+
+CVE-2013-3637
+ProjectPier 0.8.8 does not use the Secure flag for cookies
+CWE-79
+
+
+CVE-2013-3638
+SQL injection vulnerability in Boonex Dolphin before 7.1.3 allows remote authenticated users to execute arbitrary SQL commands via the 'pathes' parameter in 'categories.php'.
+CWE-89
+
+
+CVE-2013-3684
+NextGEN Gallery plugin before 1.9.13 for WordPress: ngggallery.php file upload
+CWE-434
+
+
+CVE-2013-3722
+A Denial of Service (infinite loop) exists in OpenSIPS before 1.10 in lookup.c.
+CWE-835
+
+
+CVE-2013-3931
+Cross-site scripting (XSS) vulnerability in the Jomres (com_jomres) component before 7.3.1 for Joomla! allows remote authenticated users with the "Business Manager" permission to inject arbitrary web script or HTML via the property_name parameter, related to editing property details.
+CWE-79
+
+
+CVE-2013-3932
+SQL injection vulnerability in the Jomres (com_jomres) component before 7.3.1 for Joomla! allows remote authenticated users with the "Business Manager" permission to execute arbitrary SQL commands via the id parameter in an editProfile action to administrator/index.php.
+CWE-89
+
+
+CVE-2013-3936
+Multiple cross-site scripting (XSS) vulnerabilities in Opsview before 4.4.1 and Opsview Core before 20130522 allow remote attackers to inject arbitrary web script or HTML.
+CWE-79
+
+
+CVE-2013-3937
+Heap-based buffer overflow in xnview.exe in XnView before 2.13 allows remote attackers to execute arbitrary code via the biBitCount field in a BMP file.
+CWE-787
+
+
+CVE-2013-3939
+xnview.exe in XnView before 2.13 does not properly handle RLE strip lengths during processing of RGB files, which allows remote attackers to execute arbitrary code via the RLE strip size field in a RGB file, which leads to an unexpected sign extension error and a heap-based buffer overflow.
+CWE-787
+
+
+CVE-2013-3941
+Xjp2.dll in XnView before 2.13 allows remote attackers to execute arbitrary code via (1) the Csiz parameter in a SIZ marker, which triggers an incorrect memory allocation, or (2) the lqcd field in a QCD marker in a crafted JPEG2000 file, which leads to a heap-based buffer overflow.
+CWE-787
+
+
+CVE-2013-3942
+Potplayer prior to 1.5.39659: DLL Loading Arbitrary Code Execution Vulnerability
+CWE-426
+
+
+CVE-2013-3944
+Stack-based buffer overflow in the MrSID plugin (MrSID.dll) before 4.37 for IrfanView allows remote attackers to execute arbitrary code via an IMAGE tag.
+CWE-787
+
+
+CVE-2013-3946
+Heap-based buffer overflow in the MrSID plugin (MrSID.dll) before 4.37 for IrfanView allows remote attackers to execute arbitrary code via a levels header.
+CWE-787
+
+
+CVE-2013-4106
+A Cross-site scripting (XSS) vulnerability exists in Conversation Overview Nickname in Cryptocat before 2.0.22.
+CWE-79
+
+
+CVE-2013-4107
+Cryptocat before 2.0.22: cryptocat.js handlePresence() has cross site scripting
+CWE-79
+
+
+CVE-2013-4109
+An unspecified cross-site scripting (XSS) vulnerability exists in Cryptocat Message Handling 1.1.165.
+CWE-79
+
+
+CVE-2013-4158
+smokeping before 2.6.9 has XSS (incomplete fix for CVE-2012-0790)
+CWE-79
+
+
+CVE-2013-4168
+Cross-site scripting (XSS) vulnerability in SmokePing 2.6.9 in the start and end time fields.
+CWE-79
+
+
+CVE-2013-4170
+In general, Ember.js escapes or strips any user-supplied content before inserting it in strings that will be sent to innerHTML. However, the `tagName` property of an `Ember.View` was inserted into such a string without being sanitized. This means that if an application assigns a view's `tagName` to user-supplied data, a specially-crafted payload could execute arbitrary JavaScript in the context of the current domain ("XSS"). This vulnerability only affects applications that assign or bind user-provided content to `tagName`.
+CWE-79
+
+
+CVE-2013-4184
+Perl module Data::UUID from CPAN version 1.219 vulnerable to symlink attacks
+CWE-59
+
+
+CVE-2013-4211
+A Code Execution Vulnerability exists in OpenX Ad Server 2.8.10 due to a backdoor in flowplayer-3.1.1.min.js library, which could let a remote malicious user execute arbitrary PHP code
+CWE-94
+
+
+CVE-2013-4225
+The RESTful Web Services (restws) module 7.x-1.x before 7.x-1.4 and 7.x-2.x before 7.x-2.1 for Drupal does not properly restrict access to entity write operations, which makes it easier for remote authenticated users with the "access resource node" and "create page content" permissions (or equivalents) to conduct cross-site scripting (XSS) or execute arbitrary PHP code via a crafted text field.
+CWE-79
+
+
+CVE-2013-4235
+shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees
+CWE-367
+
+
+CVE-2013-4241
+Multiple cross-site scripting (XSS) vulnerabilities in the HMS Testimonials plugin before 2.0.11 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) name, (2) image, (3) url, or (4) testimonial parameter to the Testimonial form (hms-testimonials-addnew page); (5) date_format parameter to the Settings - Default form (hms-testimonials-settings page); (6) name parameter in a Save action to the Settings - Custom Fields form (hms-testimonials-settings-fields page); or (7) name parameter in a Save action to the Settings - Template form (hms-testimonials-templates-new page).
+CWE-79
+
+
+CVE-2013-4267
+Ajaxeplorer before 5.0.1 allows remote attackers to execute arbitrary commands via shell metacharacters in the (1) archive_name parameter to the Power FS module (plugins/action.powerfs/class.PowerFSController.php), a (2) file name to the getTrustSizeOnFileSystem function in the File System (Standard) module (plugins/access.fs/class.fsAccessWrapper.php), or the (3) revision parameter to the Subversion Repository module (plugins/meta.svn/class.SvnManager.php).
+CWE-78
+
+
+CVE-2013-4275
+Cross-site scripting (XSS) vulnerability in the zen_breadcrumb function in template.php in the Zen theme 6.x-1.x, 7.x-3.x before 7.x-3.2, and 7.x-5.x before 7.x-5.4 for Drupal allows remote authenticated users with the "administer themes" permission to inject arbitrary web script or HTML via the breadcrumb separator field.
+CWE-79
+
+
+CVE-2013-4303
+includes/libs/IEUrlExtension.php in the MediaWiki API in MediaWiki 1.19.x before 1.19.8, 1.20.x before 1.20.7, and 1.21.x before 1.21.2 does not properly detect extensions when there are an even number of "." (period) characters in a string, which allows remote attackers to conduct cross-site scripting (XSS) attacks via the siprop parameter in a query action to wiki/api.php.
+CWE-79
+
+
+CVE-2013-4333
+OpenPNE 3 versions 3.8.7, 3.6.11, 3.4.21.1, 3.2.7.6, 3.0.8.5 has an External Entity Injection Vulnerability
+CWE-611
+
+
+CVE-2013-4334
+opWebAPIPlugin 0.5.1, 0.4.0, and 0.1.0: XXE Vulnerabilities
+CWE-611
+
+
+CVE-2013-4335
+opOpenSocialPlugin 0.8.2.1, > 0.9.9.2, 0.9.13, 1.2.6: Multiple XML External Entity Injection Vulnerabilities
+CWE-776
+
+
+CVE-2013-4357
+The eglibc package before 2.14 incorrectly handled the getaddrinfo() function. An attacker could use this issue to cause a denial of service.
+CWE-120
+
+
+CVE-2013-4364
+(1) oo-analytics-export and (2) oo-analytics-import in the openshift-origin-broker-util package in Red Hat OpenShift Enterprise 1 and 2 allow local users to have unspecified impact via a symlink attack on an unspecified file in /tmp.
+CWE-59
+
+
+CVE-2013-4395
+Simple Machines Forum (SMF) through 2.0.5 has XSS
+CWE-79
+
+
+CVE-2013-4412
+slim has NULL pointer dereference when using crypt() method from glibc 2.17
+CWE-476
+
+
+CVE-2013-4441
+The Phonemes mode in Pwgen 2.06 generates predictable passwords, which makes it easier for context-dependent attackers to guess the password via a brute-force attack.
+CWE-307
+
+
+CVE-2013-4521
+RichFaces implementation in Nuxeo Platform 5.6.0 before HF27 and 5.8.0 before HF-01 does not restrict the classes for which deserialization methods can be called, which allows remote attackers to execute arbitrary code via crafted serialized data. NOTE: this vulnerability may overlap CVE-2013-2165.
+CWE-502
+
+
+CVE-2013-4582
+The (1) create_branch, (2) create_tag, (3) import_project, and (4) fork_project functions in lib/gitlab_projects.rb in GitLab 5.0 before 5.4.2, Community Edition before 6.2.4, Enterprise Edition before 6.2.1 and gitlab-shell before 1.7.8 allows remote authenticated users to include information from local files into the metadata of a Git repository via the web interface.
+CWE-829
+
+
+CVE-2013-4654
+Symlink Traversal vulnerability in TP-LINK TL-WDR4300 and TL-1043ND..
+CWE-22
+
+
+CVE-2013-4655
+Symlink Traversal vulnerability in Belkin N900 due to misconfiguration in the SMB service.
+CWE-59
+
+
+CVE-2013-4656
+Symlink Traversal vulnerability in ASUS RT-AC66U and RT-N56U due to misconfiguration in the SMB service.
+CWE-22
+
+
+CVE-2013-4657
+Symlink Traversal vulnerability in NETGEAR WNR3500U and WNR3500L due to misconfiguration in the SMB service.
+CWE-22
+
+
+CVE-2013-4658
+Linksys EA6500 has SMB Symlink Traversal allowing symbolic links to be created to locations outside of the Samba share.
+CWE-22
+
+
+CVE-2013-4664
+SPBAS Business Automation Software 2012 has XSS.
+CWE-79
+
+
+CVE-2013-4691
+Sencha Labs Connect has XSS with connect.methodOverride()
+CWE-79
+
+
+CVE-2013-4692
+Xorbin Analog Flash Clock 1.0 extension for Joomia has XSS
+CWE-79
+
+
+CVE-2013-4693
+WordPress Xorbin Digital Flash Clock 1.0 has XSS
+CWE-79
+
+
+CVE-2013-4695
+Winamp 5.63: Invalid Pointer Dereference leading to Arbitrary Code Execution
+CWE-763
+
+
+CVE-2013-4717
+Multiple SQL injection vulnerabilities in Open Ticket Request System (OTRS) Help Desk 3.0.x before 3.0.22, 3.1.x before 3.1.18, and 3.2.x before 3.2.9 allow remote authenticated users to execute arbitrary SQL commands via unspecified vectors related to Kernel/Output/HTML/PreferencesCustomQueue.pm, Kernel/System/CustomerCompany.pm, Kernel/System/Ticket/IndexAccelerator/RuntimeDB.pm, Kernel/System/Ticket/IndexAccelerator/StaticDB.pm, and Kernel/System/TicketSearch.pm.
+CWE-89
+
+
+CVE-2013-4718
+Cross-site scripting (XSS) vulnerability in Open Ticket Request System (OTRS) ITSM 3.0.x before 3.0.9, 3.1.x before 3.1.10, and 3.2.x before 3.2.7 allows remote authenticated users to inject arbitrary web script or HTML via an ITSM ConfigItem search.
+CWE-79
+
+
+CVE-2013-4743
+Static HTTP Server 1.0 has a Local Overflow
+CWE-120
+
+
+CVE-2013-4752
+Symfony 2.0.X before 2.0.24, 2.1.X before 2.1.12, 2.2.X before 2.2.5, and 2.3.X before 2.3.3 have an issue in the HttpFoundation component. The Host header can be manipulated by an attacker when the framework is generating an absolute URL. A remote attacker could exploit this vulnerability to inject malicious content into the Web application page and conduct various attacks.
+CWE-79
+
+
+CVE-2013-4763
+Samsung Galaxy S3/S4 exposes an unprotected component allowing arbitrary SMS text messages without requesting permission.
+CWE-276
+
+
+CVE-2013-4764
+Samsung Galaxy S3/S4 exposes an unprotected component allowing an unprivileged app to send arbitrary SMS texts to arbitrary destinations without permission.
+CWE-276
+
+
+CVE-2013-4770
+Cross-site scripting (XSS) vulnerability in Eucalyptus Management Console (EMC) 4.0.x before 4.0.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+CWE-79
+
+
+CVE-2013-4791
+PrestaShop before 1.4.11 allows Logistician, translators and other low level profiles/accounts to inject a persistent XSS vector on TinyMCE.
+CWE-79
+
+
+CVE-2013-4796
+ReviewBoard 1.6.17 allows code execution by attaching PHP scripts to review request
+CWE-434
+
+
+CVE-2013-4855
+D-Link DIR-865L has SMB Symlink Traversal due to misconfiguration in the SMB service allowing symbolic links to be created to locations outside of the Samba share.
+CWE-22
+
+
+CVE-2013-4857
+D-Link DIR-865L has PHP File Inclusion in the router xml file.
+CWE-91
+
+
+CVE-2013-4859
+INSTEON Hub 2242-222 lacks Web and API authentication
+CWE-276
+
+
+CVE-2013-4861
+Directory traversal vulnerability in cgi-bin/cmh/get_file.sh in MiCasaVerde VeraLite with firmware 1.5.408 allows remote authenticated users to read arbirary files via a .. (dot dot) in the filename parameter.
+CWE-22
+
+
+CVE-2013-4864
+MiCasaVerde VeraLite with firmware 1.5.408 allows remote attackers to send HTTP requests to intranet servers via the url parameter to cgi-bin/cmh/proxy.sh, related to a Server-Side Request Forgery (SSRF) issue.
+CWE-918
+
+
+CVE-2013-4891
+The xss_clean function in CodeIgniter before 2.1.4 might allow remote attackers to bypass an intended protection mechanism and conduct cross-site scripting (XSS) attacks via an unclosed HTML tag.
+CWE-79
+
+
+CVE-2013-4968
+Puppet Enterprise before 3.0.1 allows remote attackers to (1) conduct clickjacking attacks via unspecified vectors related to the console, and (2) conduct cross-site scripting (XSS) attacks via unspecified vectors related to "live management."
+CWE-79
+
+
+CVE-2013-5212
+Cross-site Scripting (XSS) in EasyXDM before 2.4.18 allows remote attackers to inject arbitrary web script or html via the easyxdm.swf file.
+CWE-79
+
+
+CVE-2013-5594
+Mozilla Firefox before 25 allows modification of anonymous content of pluginProblem.xml binding
+CWE-1021
+
+
+CVE-2013-5637
+PQI AirCard has persistent XSS
+CWE-79
+
+
+CVE-2013-5638
+Transcend WiFiSD 1.8 has persistent XSS
+CWE-79
+
+
+CVE-2013-5656
+FuzeZip 1.0.0.131625 has a Local Buffer Overflow vulnerability
+CWE-787
+
+
+CVE-2013-5658
+AultWare pwStore 2010.8.30.0 has XSS
+CWE-79
+
+
+CVE-2013-5659
+Wiz 5.0.3 has a user mode write access violation
+CWE-787
+
+
+CVE-2013-5661
+Cache Poisoning issue exists in DNS Response Rate Limiting.
+CWE-290
+
+
+CVE-2013-5743
+Multiple SQL injection vulnerabilities in Zabbix 1.8.x before 1.8.18rc1, 2.0.x before 2.0.9rc1, and 2.1.x before 2.1.7.
+CWE-89
+
+
+CVE-2013-5945
+Multiple SQL injection vulnerabilities in D-Link DSR-150 with firmware before 1.08B44; DSR-150N with firmware before 1.05B64; DSR-250 and DSR-250N with firmware before 1.08B44; and DSR-500, DSR-500N, DSR-1000, and DSR-1000N with firmware before 1.08B77 allow remote attackers to execute arbitrary SQL commands via the password to (1) the login.authenticate function in share/lua/5.1/teamf1lualib/login.lua or (2) captivePortal.lua.
+CWE-89
+
+
+CVE-2013-5978
+Multiple cross-site scripting (XSS) vulnerabilities in products.php in the Cart66 Lite plugin before 1.5.1.15 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) Product name or (2) Price description fields via a request to wp-admin/admin.php. NOTE: This issue may only cross privilege boundaries if used in combination with CVE-2013-5977.
+CWE-79
+
+
+CVE-2013-5988
+A Cross-site Scripting (XSS) vulnerability exists in the All in One SEO Pack plugin before 2.0.3.1 for WordPress via the Search parameter.
+CWE-79
+
+
+CVE-2013-6022
+A Cross-Site Scripting (XSS) vulnerability exists in Tiki Wiki CMG Groupware 11.0 via the id paraZeroClipboard.swf, which could let a remote malicious user execute arbitrary code.
+CWE-79
+
+
+CVE-2013-6056
+OSSIM before 4.3.3.1 has tele_compress.php path traversal vulnerability
+CWE-22
+
+
+CVE-2013-6225
+LiveZilla 5.0.1.4 has a Remote Code Execution vulnerability
+CWE-22
+
+
+CVE-2013-6234
+Unrestricted file upload vulnerability in the Worksheet designer in SpagoBI before 4.1 allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in an unspecified directory, aka "XSS File Upload."
+CWE-434
+
+
+CVE-2013-6236
+IZON IP 2.0.2: hard-coded password vulnerability
+CWE-798
+
+
+CVE-2013-6239
+Cross-site scripting (XSS) vulnerability in the photo gallery model in Exis Contexis before 2.0 allows remote attackers to inject arbitrary web script or HTML via the image parameter in a detail action.
+CWE-79
+
+
+CVE-2013-6242
+Cross-site scripting (XSS) vulnerability in the frontend in Open-Xchange (OX) AppSuite 6.22.3 before 6.22.3-rev5 and 6.22.4 before 6.22.4-rev12 allows remote attackers to inject arbitrary web script or HTML via the subject of an email. NOTE: the vulnerabilities related to the body of the email and the publication name were SPLIT from this CVE ID because they affect different sets of versions.
+CWE-79
+
+
+CVE-2013-6272
+The NotificationBroadcastReceiver class in the com.android.phone process in Google Android 4.1.1 through 4.4.2 allows attackers to bypass intended access restrictions and consequently make phone calls to arbitrary numbers, send mmi or ussd codes, or hangup ongoing calls via a crafted application.
+CWE-284
+
+
+CVE-2013-6276
+QNAP F_VioCard 2312 and F_VioGate 2308 have hardcoded entries in authorized_keys files. NOTE: 1. All active models are not affected. The last affected model was EOL since 2010. 2. The legacy authorization mechanism is no longer adopted in all active models
+CWE-798
+
+
+CVE-2013-6277
+QNAP VioCard 300 has hardcoded RSA private keys.
+CWE-798
+
+
+CVE-2013-6358
+PrestaShop 1.5.5 allows remote authenticated attackers to execute arbitrary code by uploading a crafted profile and then accessing it in the module/ directory.
+CWE-434
+
+
+CVE-2013-6362
+Xerox ColorCube and WorkCenter devices in 2013 had hardcoded FTP and shell user accounts.
+CWE-798
+
+
+CVE-2013-6430
+The JavaScriptUtils.javaScriptEscape method in web/util/JavaScriptUtils.java in Spring MVC in Spring Framework before 3.2.2 does not properly escape certain characters, which allows remote attackers to conduct cross-site scripting (XSS) attacks via a (1) line separator or (2) paragraph separator Unicode character or (3) left or (4) right angle bracket.
+CWE-79
+
+
+CVE-2013-6451
+Cross-site scripting (XSS) vulnerability in MediaWiki 1.19.9 before 1.19.10, 1.2x before 1.21.4, and 1.22.x before 1.22.1 allows remote attackers to inject arbitrary web script or HTML via unspecified CSS values.
+CWE-79
+
+
+CVE-2013-6460
+Nokogiri gem 1.5.x has Denial of Service via infinite loop when parsing XML documents
+CWE-776
+
+
+CVE-2013-6461
+Nokogiri gem 1.5.x and 1.6.x has DoS while parsing XML entities by failing to apply limits
+CWE-776
+
+
+CVE-2013-6495
+JBossWeb Bayeux has reflected XSS
+CWE-79
+
+
+CVE-2013-6772
+Splunk before 5.0.4 lacks X-Frame-Options which can allow Clickjacking
+CWE-1021
+
+
+CVE-2013-6785
+Directory traversal vulnerability in url_redirect.cgi in Supermicro IPMI before SMT_X9_315 allows authenticated attackers to read arbitrary files via the url_name parameter.
+CWE-22
+
+
+CVE-2013-6878
+Cross-site scripting (XSS) vulnerability in the Mijosoft MijoSearch component 2.0.4 and earlier for Joomla! allows remote attackers to inject arbitrary web script or HTML via the query parameter to component/mijosearch/search.
+CWE-79
+
+
+CVE-2013-6879
+The Mijosoft MijoSearch component 2.0.1 and earlier for Joomla! allows remote attackers to obtain sensitive information via a request to component/mijosearch/search, which reveals the installation path in an error message.
+CWE-209
+
+
+CVE-2013-6880
+Open redirect in proxy.php in FlashCanvas before 1.6 allows remote attackers to redirect users to arbitrary web sites and conduct cross-site scripting (XSS) attacks via the HTTP Referer header.
+CWE-79
+
+
+CVE-2013-7054
+D-Link DIR-100 4.03B07: cli.cgi XSS
+CWE-79
+
+
+CVE-2013-7062
+Multiple cross-site scripting (XSS) vulnerabilities in Zope, as used in Plone 3.3.x through 3.3.6, 4.0.x through 4.0.9, 4.1.x through 4.1.6, 4.2.x through 4.2.7, and 4.3 through 4.3.2, allow remote attackers to inject arbitrary web script or HTML via unspecified input in the (1) browser_id_manager or (2) OFS.Image method.
+CWE-79
+
+
+CVE-2013-7071
+Cross-site scripting (XSS) vulnerability in the handle_request function in lib/HTTPServer.pm in Monitorix before 3.4.0 allows remote attackers to inject arbitrary web script or HTML via the PATH_INFO.
+CWE-79
+
+
+CVE-2013-7088
+ClamAV before 0.97.7 has buffer overflow in the libclamav component
+CWE-120
+
+
+CVE-2013-7098
+OpenConnect VPN client with GnuTLS before 5.02 contains a heap overflow if MTU is increased on reconnection.
+CWE-787
+
+
+CVE-2013-7173
+Belkin n750 routers have a buffer overflow.
+CWE-120
+
+
+CVE-2013-7201
+WebHybridClient.java in PayPal 5.3 and earlier for Android ignores SSL errors, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information.
+CWE-295
+
+
+CVE-2013-7285
+Xstream API versions up to 1.4.6 and version 1.4.10, if the security framework has not been initialized, may allow a remote attacker to run arbitrary shell commands by manipulating the processed input stream when unmarshaling XML or any supported format. e.g. JSON.
+CWE-78
+
+
+CVE-2013-7351
+Multiple cross-site scripting (XSS) vulnerabilities in index.php in Shaarli allow remote attackers to inject arbitrary web script or HTML via the URL to the (1) showRSS, (2) showATOM, or (3) showDailyRSS function; a (4) file name to the importFile function; or (5) vectors related to bookmarks.
+CWE-79
+
+
+CVE-2013-7370
+node-connect before 2.8.1 has XSS in the Sencha Labs Connect middleware
+CWE-79
+
+
+CVE-2013-7371
+node-connects before 2.8.2 has cross site scripting in Sencha Labs Connect middleware (vulnerability due to incomplete fix for CVE-2013-7370)
+CWE-79
+
+
+CVE-2013-7390
+Unrestricted file upload vulnerability in AgentLogUploadServlet in ManageEngine DesktopCentral 7.x and 8.0.0 before build 80293 allows remote attackers to execute arbitrary code by uploading a file with a jsp extension, then accessing it via a direct request to the file in the webroot.
+CWE-434
+
+
+CVE-2013-7466
+Simple Machines Forum (SMF) 2.0.4 allows local file inclusion, with resultant remote code execution, in install.php via ../ directory traversal in the db_type parameter if install.php remains present after installation.
+CWE-22
+
+
+CVE-2013-7467
+Simple Machines Forum (SMF) 2.0.4 allows XSS via the index.php?action=pm;sa=settings;save sa parameter.
+CWE-79
+
+
+CVE-2013-7468
+Simple Machines Forum (SMF) 2.0.4 allows PHP Code Injection via the index.php?action=admin;area=languages;sa=editlang dictionary parameter.
+CWE-94
+
+
+CVE-2013-7472
+The "Count per Day" plugin before 3.2.6 for WordPress allows XSS via the wp-admin/?page=cpd_metaboxes daytoshow parameter.
+CWE-79
+
+
+CVE-2013-7474
+Windu CMS 2.2 allows XSS via the name parameter to admin/content/edit or admin/content/add, or the username parameter to admin/users.
+CWE-79
+
+
+CVE-2013-7475
+The contact-form-plugin plugin before 3.52 for WordPress has XSS.
+CWE-79
+
+
+CVE-2013-7477
+The events-manager plugin before 5.5.2 for WordPress has XSS in the booking form.
+CWE-79
+
+
+CVE-2013-7478
+The events-manager plugin before 5.5 for WordPress has XSS via EM_Ticket::get_post.
+CWE-79
+
+
+CVE-2013-7479
+The events-manager plugin before 5.3.9 for WordPress has XSS in the search form field.
+CWE-79
+
+
+CVE-2013-7480
+The events-manager plugin before 5.3.6.1 for WordPress has XSS via the booking form and admin areas.
+CWE-79
+
+
+CVE-2013-7481
+The contact-form-plugin plugin before 3.3.5 for WordPress has XSS.
+CWE-79
+
+
+CVE-2013-7482
+The reflex-gallery plugin before 1.4.3 for WordPress has XSS.
+CWE-79
+
+
+CVE-2013-7485
+Cross-site scripting (XSS) vulnerability in the backend in Open-Xchange (OX) AppSuite 7.2.x before 7.2.2-rev26 and 7.4.x before 7.4.0-rev16 allows remote attackers to inject arbitrary web script or HTML via the publication name, which is not properly handled in an error message. NOTE: this vulnerability was SPLIT from CVE-2013-6242 because it affects different sets of versions.
+CWE-79
+
+
+CVE-2013-7486
+Cross-site scripting (XSS) vulnerability in the backend in Open-Xchange (OX) AppSuite 7.2.x before 7.2.2-rev27 and 7.4.x before 7.4.0-rev20 allows remote attackers to inject arbitrary web script or HTML via the body of an email. NOTE: this vulnerability was SPLIT from CVE-2013-6242 because it affects different sets of versions.
+CWE-79
+
+
+CVE-2013-7488
+perl-Convert-ASN1 (aka the Convert::ASN1 module for Perl) through 0.27 allows remote attackers to cause an infinite loop via unexpected input.
+CWE-835
+
+
+CVE-2013-7489
+The Beaker library through 1.11.0 for Python is affected by deserialization of untrusted data, which could lead to arbitrary code execution.
+CWE-502
+
+
+CVE-2013-7491
+An issue was discovered in the DBI module before 1.628 for Perl. Stack corruption occurs when a user-defined function requires a non-trivial amount of memory and the Perl stack gets reallocated.
+CWE-787
+
+

@@ -1,0 +1,30 @@
+CVE-2007-0158
+thttpd 2007 has buffer underflow.
+CWE-787
+
+
+CVE-2007-0899
+There is a possible heap overflow in libclamav/fsg.c before 0.100.0.
+CWE-787
+
+
+CVE-2007-5317
+Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-5292.  Reason: This candidate is a duplicate of CVE-2007-5292.  Notes: All CVE users should reference CVE-2007-5292 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage
+CWE-79
+
+
+CVE-2007-5661
+The Macrovision InstallShield InstallScript One-Click Install (OCI) ActiveX control 12.0 before SP2 does not validate the DLL files that are named as parameters to the control, which allows remote attackers to download arbitrary library code onto a client machine.
+CWE-94
+
+
+CVE-2007-6678
+Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-6167.  Reason: This candidate is a duplicate of CVE-2007-6167.  Notes: All CVE users should reference CVE-2007-6167 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage
+CWE-94
+
+
+CVE-2007-6758
+Server-side request forgery (SSRF) vulnerability in feed-proxy.php in extjs 5.0.0.
+CWE-918
+
+

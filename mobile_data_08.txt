@@ -1,0 +1,25 @@
+CVE-2008-10001
+A vulnerability, which was classified as problematic, has been found in Pro2col Stingray FTS. The manipulation of the argument Username leads to cross site scripting. The attack may be initiated remotely. It is recommended to upgrade the affected component. NOTE: This vulnerability only affects products that are no longer supported by the maintainer
+CWE-79
+
+
+CVE-2008-3278
+frysk packages through 2008-08-05 as shipped in Red Hat Enterprise Linux 5 are built with an insecure RPATH set in the ELF header of multiple binaries in /usr/bin/f* (e.g. fcore, fcatch, fstack, fstep, ...) shipped in the package. A local attacker can exploit this vulnerability by running arbitrary code as another user.
+CWE-1188
+
+
+CVE-2008-7272
+FireGPG before 0.6 handle user’s passphrase and decrypted cleartext insecurely by writing pre-encrypted cleartext and the user's passphrase to disk which may result in the compromise of secure communication or a users’s private key.
+CWE-312
+
+
+CVE-2008-7273
+A symlink issue exists in Iceweasel-firegpg before 0.6 due to insecure tempfile handling.
+CWE-59
+
+
+CVE-2008-7321
+The tubepress plugin before 1.6.5 for WordPress has XSS.
+CWE-79
+
+
